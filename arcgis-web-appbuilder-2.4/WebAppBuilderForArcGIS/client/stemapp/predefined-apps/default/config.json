@@ -27,7 +27,20 @@
         "relativeTo": "browser"
       },
       "version": "2.4"
-    }, {
+    },
+    {
+    "uri": "widgets/AnvilMapTips/Widget",
+    "position": {
+      "left": -1000,
+      "bottom": -1000
+    },
+    "version": "1.1",
+    "id": "widgets/AnvilMapTips/Widget_101",
+    "positionRelativeTo": "map",
+    "name": "AnvilMapTips",
+    "label": "Anvil Map Tips"
+    },
+     {
       "uri": "widgets/Scalebar/Widget",
       "position": {
         "left": 7,
