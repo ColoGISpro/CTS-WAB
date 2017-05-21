@@ -1,14 +1,14 @@
 {
   "theme": {
-    "name": "FoldableTheme",
+    "name": "JewelryBoxTheme",
     "styles": [
       "default",
       "black",
-      "blue",
-      "cyan",
       "green",
-      "purple",
+      "cyan",
       "red",
+      "purple",
+      "blue",
       "yellow"
     ],
     "version": "2.4"
@@ -25,7 +25,7 @@
   "widgetOnScreen": {
     "widgets": [
       {
-        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "uri": "themes/JewelryBoxTheme/widgets/HeaderController/Widget",
         "position": {
           "left": 0,
           "top": 0,
@@ -34,22 +34,8 @@
           "relativeTo": "browser"
         },
         "version": "2.4",
-        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_102",
+        "id": "themes_JewelryBoxTheme_widgets_HeaderController_Widget_122",
         "name": "HeaderController"
-      },
-      {
-        "uri": "widgets/AnvilMapTips/Widget",
-        "position": {
-          "left": -1000,
-          "bottom": -1000,
-          "relativeTo": "map"
-        },
-        "version": "1.1.0",
-        "id": "widgets_AnvilMapTips_Widget_101",
-        "positionRelativeTo": "map",
-        "name": "AnvilMapTips",
-        "label": "Anvil Map Tips",
-        "config": "configs/AnvilMapTips/config_Anvil Map Tips.json"
       },
       {
         "uri": "widgets/Scalebar/Widget",
@@ -59,7 +45,7 @@
           "relativeTo": "map"
         },
         "version": "2.4",
-        "id": "widgets_Scalebar_Widget_103",
+        "id": "widgets_Scalebar_Widget_123",
         "name": "Scalebar"
       },
       {
@@ -70,7 +56,7 @@
           "relativeTo": "map"
         },
         "version": "2.4",
-        "id": "widgets_Search_Widget_104",
+        "id": "widgets_Search_Widget_124",
         "name": "Search"
       },
       {
@@ -81,7 +67,7 @@
           "relativeTo": "map"
         },
         "version": "2.4",
-        "id": "widgets_Coordinate_Widget_105",
+        "id": "widgets_Coordinate_Widget_125",
         "name": "Coordinate"
       },
       {
@@ -91,7 +77,7 @@
           "relativeTo": "map"
         },
         "placeholderIndex": 1,
-        "id": "_106"
+        "id": "_126"
       },
       {
         "position": {
@@ -100,7 +86,7 @@
           "relativeTo": "map"
         },
         "placeholderIndex": 2,
-        "id": "_107"
+        "id": "_127"
       },
       {
         "position": {
@@ -109,36 +95,17 @@
           "relativeTo": "map"
         },
         "placeholderIndex": 3,
-        "id": "_108"
-      },
-      {
-        "position": {
-          "left": 205,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 4,
-        "id": "_109"
-      },
-      {
-        "position": {
-          "left": 255,
-          "top": 45,
-          "relativeTo": "map"
-        },
-        "placeholderIndex": 5,
-        "id": "_110"
+        "id": "_128"
       },
       {
         "uri": "widgets/OverviewMap/Widget",
         "position": {
-          "bottom": 0,
           "right": 0,
-          "zIndex": 1,
+          "bottom": 0,
           "relativeTo": "map"
         },
         "version": "2.4",
-        "id": "widgets_OverviewMap_Widget_111",
+        "id": "widgets_OverviewMap_Widget_129",
         "name": "OverviewMap"
       },
       {
@@ -149,7 +116,7 @@
           "relativeTo": "map"
         },
         "version": "2.4",
-        "id": "widgets_HomeButton_Widget_112",
+        "id": "widgets_HomeButton_Widget_130",
         "name": "HomeButton"
       },
       {
@@ -160,16 +127,16 @@
           "relativeTo": "map"
         },
         "version": "2.4",
-        "id": "widgets_MyLocation_Widget_113",
+        "id": "widgets_MyLocation_Widget_131",
         "name": "MyLocation"
       },
       {
         "uri": "widgets/AttributeTable/Widget",
+        "version": "2.4",
         "position": {
           "relativeTo": "browser"
         },
-        "version": "2.4",
-        "id": "widgets_AttributeTable_Widget_114",
+        "id": "widgets_AttributeTable_Widget_132",
         "name": "AttributeTable"
       },
       {
@@ -179,7 +146,7 @@
           "relativeTo": "browser"
         },
         "version": "2.4",
-        "id": "widgets_Splash_Widget_115",
+        "id": "widgets_Splash_Widget_133",
         "name": "Splash"
       },
       {
@@ -190,20 +157,48 @@
           "relativeTo": "map"
         },
         "version": "2.4",
-        "id": "widgets_ZoomSlider_Widget_116",
+        "id": "widgets_ZoomSlider_Widget_134",
         "name": "ZoomSlider"
       },
       {
         "uri": "widgets/ExtentNavigate/Widget",
         "visible": false,
         "position": {
-          "top": 150,
+          "top": 148,
           "left": 7,
           "relativeTo": "map"
         },
-        "id": "widgets_ExtentNavigate_Widget_117",
-        "name": "ExtentNavigate",
-        "version": "2.4"
+        "version": "2.4",
+        "id": "widgets_ExtentNavigate_Widget_135",
+        "name": "ExtentNavigate"
+      }
+    ],
+    "groups": [
+      {
+        "visible": false,
+        "panel": {
+          "uri": "themes/JewelryBoxTheme/panels/LDockablePanel/Panel",
+          "position": {
+            "left": 0,
+            "top": 40,
+            "bottom": 0,
+            "width": 360,
+            "relativeTo": "browser"
+          }
+        },
+        "maxWidgets": 1,
+        "id": "_121",
+        "widgets": [
+          {
+            "name": "PopupPanel",
+            "version": "2.4",
+            "closeable": true,
+            "uri": "widgets/PopupPanel/Widget",
+            "config": "configs/PopupPanel/config_PopupPanel.json",
+            "id": "widgets_PopupPanel_Widget_136"
+          }
+        ],
+        "label": "Group_0"
       }
     ],
     "panel": {
@@ -229,7 +224,7 @@
   },
   "widgetPool": {
     "panel": {
-      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "uri": "themes/JewelryBoxTheme/panels/FoldablePanel/Panel",
       "position": {
         "top": 5,
         "right": 5,
@@ -269,20 +264,155 @@
   },
   "mobileLayout": {
     "widgetOnScreen": {
-      "widgets": {
-        "widgets/Scalebar/Widget": {
+      "widgets": [
+        {
+          "uri": "themes/JewelryBoxTheme/widgets/HeaderController/Widget",
           "position": {
-            "left": 7,
-            "bottom": 40
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 40,
+            "relativeTo": "browser"
           },
-          "version": "1.4"
+          "version": "2.4"
         },
-        "widgets/Coordinate/Widget": {
+        {
+          "uri": "widgets/Scalebar/Widget",
           "position": {
             "left": 7,
-            "bottom": 17
+            "bottom": 40,
+            "relativeTo": "map"
           },
-          "version": "1.4"
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 55,
+            "top": 5
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 17,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        },
+        {
+          "position": {
+            "left": 55,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 105,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 155,
+            "top": 45
+          }
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 75
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 110
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.4",
+          "position": {
+            "relativeTo": "browser"
+          }
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "top": 5,
+            "left": 7
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 148,
+            "left": 7
+          },
+          "version": "2.4"
+        }
+      ],
+      "groups": [
+        {
+          "visible": false,
+          "panel": {
+            "uri": "themes/JewelryBoxTheme/panels/LDockablePanel/Panel",
+            "position": {
+              "left": 0,
+              "top": 40,
+              "bottom": 0,
+              "width": 360,
+              "relativeTo": "browser"
+            }
+          },
+          "maxWidgets": 1
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 40,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/JewelryBoxTheme/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5
         }
       }
     }

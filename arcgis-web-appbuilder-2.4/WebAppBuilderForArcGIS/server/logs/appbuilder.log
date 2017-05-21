@@ -164,3 +164,20 @@
 [2017-05-21 17:05:48.390] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
 [2017-05-21 17:05:48.916] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
 [2017-05-21 17:10:38.449] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
+[2017-05-21 17:19:57.701] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-05-21 17:20:00.186] [INFO] repo - insert HTML.LayerToggleButton
+[2017-05-21 17:20:00.186] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-05-21 17:20:00.748] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-05-21 17:20:01.655] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-21 17:20:02.824] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-21 17:20:07.531] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
+[2017-05-21 17:20:23.885] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerToggleButton
+[2017-05-21 17:23:12.679] [INFO] repo - insert HTML.PopupPanel
+[2017-05-21 17:23:33.737] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
+[2017-05-21 17:23:42.406] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes\JewelryBoxTheme
+[2017-05-21 17:23:57.548] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\PopupPanel
+[2017-05-21 17:24:58.434] [INFO] app - remove theme FoldableTheme from app 2
+[2017-05-21 17:24:58.449] [INFO] app - remove widget AnvilMapTips from app 2
+[2017-05-21 17:51:18.098] [INFO] repo - insert HTML.GoogleAnalytics
+[2017-05-21 17:51:29.541] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-21 17:51:36.273] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js

@@ -19,3 +19,6 @@
 {"k":"0000000078","o":"0000000417","v":"001"}
 {"_id":2,"_uid":1,"_dt":1495408867803,"_s":"8fb5abbb11e83b4156fb594255bf3355"}
 {"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495408867801,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
+{"k":"0000000078","o":"0000000419","v":"001"}
+{"_id":2,"_uid":1,"_dt":1495409098460,"_s":"b2e02bc92acb4c50a64af480de8468d8"}
+{"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495409098459,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
