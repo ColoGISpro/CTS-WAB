@@ -121,3 +121,46 @@
 [2017-05-21 16:27:50.394] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\ElevationProfile
 [2017-05-21 16:27:50.427] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerToggleButton
 [2017-05-21 16:30:17.177] [INFO] app - App removed, id: 2
+[2017-05-21 17:05:25.901] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-05-21 17:05:28.309] [INFO] repo - delete HTML.ElevationProfile
+[2017-05-21 17:05:28.309] [INFO] repo - delete HTML.GoogleAnalytics
+[2017-05-21 17:05:28.324] [INFO] repo - delete HTML.LayerToggleButton
+[2017-05-21 17:05:28.324] [INFO] repo - delete HTML.PopupPanel
+[2017-05-21 17:05:28.340] [INFO] repo - delete HTML.PrintPlus
+[2017-05-21 17:05:28.340] [INFO] repo - delete HTML.UrlButton
+[2017-05-21 17:05:28.340] [INFO] repo - insert HTML.AnvilMapTips
+[2017-05-21 17:05:28.340] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-05-21 17:05:28.887] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-05-21 17:05:29.658] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-21 17:05:29.839] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-21 17:05:45.766] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\jimu.js
+[2017-05-21 17:05:46.531] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\images
+[2017-05-21 17:05:46.543] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\libs
+[2017-05-21 17:05:46.576] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\index.html
+[2017-05-21 17:05:46.580] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\env.js
+[2017-05-21 17:05:46.583] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\simpleLoader.js
+[2017-05-21 17:05:46.587] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\init.js
+[2017-05-21 17:05:46.590] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\web.config
+[2017-05-21 17:05:46.594] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\dynamic-modules
+[2017-05-21 17:05:46.602] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\readme.html
+[2017-05-21 17:05:46.610] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\config-readme.txt
+[2017-05-21 17:05:46.613] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\configs
+[2017-05-21 17:05:46.634] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\.jshintrc
+[2017-05-21 17:05:46.638] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\.jshintignore
+[2017-05-21 17:05:46.642] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\3rd-party-license.txt
+[2017-05-21 17:05:46.655] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2017-05-21 17:05:46.937] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\AnvilMapTips
+[2017-05-21 17:05:46.955] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\Scalebar
+[2017-05-21 17:05:47.088] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\Search
+[2017-05-21 17:05:47.242] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\Coordinate
+[2017-05-21 17:05:47.418] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\OverviewMap
+[2017-05-21 17:05:47.552] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\HomeButton
+[2017-05-21 17:05:47.624] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\MyLocation
+[2017-05-21 17:05:47.762] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\AttributeTable
+[2017-05-21 17:05:47.932] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\Splash
+[2017-05-21 17:05:48.108] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\ZoomSlider
+[2017-05-21 17:05:48.182] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\ExtentNavigate
+[2017-05-21 17:05:48.255] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\Legend
+[2017-05-21 17:05:48.390] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\LayerList
+[2017-05-21 17:05:48.916] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
+[2017-05-21 17:10:38.449] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
