@@ -244,16 +244,28 @@
         "version": "2.4",
         "id": "widgets_Legend_Widget_118",
         "name": "Legend",
-        "index": 0
+        "index": 2
       },
       {
         "uri": "widgets/LayerList/Widget",
         "version": "2.4",
         "id": "widgets_LayerList_Widget_119",
         "name": "LayerList",
-        "index": 1
+        "index": 3
+      },
+      {
+        "name": "LayerToggleButton",
+        "version": "2.3",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_LayerToggleButton.json",
+        "index": 5,
+        "id": "widgets_LayerToggleButton_Widget_120",
+        "position": {
+          "relativeTo": "map"
+        }
       }
-    ]
+    ],
+    "groups": []
   },
   "mobileLayout": {
     "widgetOnScreen": {

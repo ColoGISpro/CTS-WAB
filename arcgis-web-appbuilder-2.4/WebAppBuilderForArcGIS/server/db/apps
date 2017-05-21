@@ -1,3 +1,6 @@
+{"k":"0000000078","o":"0000000417","v":"001"}
+{"_id":2,"_uid":1,"_dt":1495408225535,"_s":"b6efae05d1abc4cc7b41274a381e930c"}
+{"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495408225534,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
 {"k":"0000000096","o":"0000000352","v":"001"}
 {"_id":"HTML_basic_viewer","_uid":1,"_dt":1495405525354,"_s":"b4a0ca15b65209f5067d72cb31129e65"}
 {"createdTime":1439251200000,"lastUpdated":1439251200000,"creator":"Esri","appType":"HTML","_id":"HTML_basic_viewer","id":"HTML_basic_viewer","predefinedId":"basic_viewer","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","isTemplate":true,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
@@ -13,30 +16,6 @@
 {"k":"0000000093","o":"0000000390","v":"001"}
 {"_id":"HTML3D_default","_uid":1,"_dt":1495405527896,"_s":"79d5a5b1521058616f3b7b7029e9942f"}
 {"name":"Default","description":"_Default","createdTime":1439337600000,"lastUpdated":1439337600000,"creator":"Esri","appType":"HTML3D","_id":"HTML3D_default","id":"HTML3D_default","predefinedId":"default","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp3d\\","stemappUrl":"/webappbuilder/stemapp3d/","isTemplate":false,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
-{"k":"0000000078","o":"0000000376","v":"001"}
-{"_id":2,"_uid":1,"_dt":1495405612354,"_s":"36b2421c645ce66773db6d917d7247f4"}
-{"_id":2,"id":2,"name":"Test app 1","description":"Test app 1","lastUpdated":1495405612350,"createdTime":1495405612353,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false}
-{"k":"0000000078","o":"0000000427","v":"001"}
-{"_id":2,"_uid":1,"_dt":1495405615683,"_s":"a10af147ed0be9403abf2ca3266999f4"}
-{"_id":2,"id":2,"name":"Test app 1","description":"Test app 1","lastUpdated":1495405615665,"createdTime":1495405612353,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
-{"k":"0000000049","o":"0000000000","v":"001"}
-{"_id":2,"_uid":1,"_dt":1495405815060,"_a":"del"}
-
-{"k":"0000000078","o":"0000000366","v":"001"}
-{"_id":2,"_uid":1,"_dt":1495407945763,"_s":"ed7482fc3eeddb4ee3d9ec3d10c51fee"}
-{"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495407945759,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false}
 {"k":"0000000078","o":"0000000417","v":"001"}
-{"_id":2,"_uid":1,"_dt":1495407948586,"_s":"5e759fea255907a09c555574625b4816"}
-{"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495407948569,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
-{"k":"0000000078","o":"0000000417","v":"001"}
-{"_id":2,"_uid":1,"_dt":1495408016047,"_s":"dbee1aec3ce896281c138bb43f7924c1"}
-{"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495408016046,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
-{"k":"0000000078","o":"0000000417","v":"001"}
-{"_id":2,"_uid":1,"_dt":1495408087183,"_s":"b205842ece40bb0121a01ecb545bbb99"}
-{"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495408087182,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
-{"k":"0000000078","o":"0000000417","v":"001"}
-{"_id":2,"_uid":1,"_dt":1495408152368,"_s":"9cb872686c4665420d0b1556d119aada"}
-{"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495408152367,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
-{"k":"0000000078","o":"0000000417","v":"001"}
-{"_id":2,"_uid":1,"_dt":1495408225535,"_s":"b6efae05d1abc4cc7b41274a381e930c"}
-{"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495408225534,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
+{"_id":2,"_uid":1,"_dt":1495408867803,"_s":"8fb5abbb11e83b4156fb594255bf3355"}
+{"_id":2,"id":2,"name":"Test3","description":"test3","lastUpdated":1495408867801,"createdTime":1495407945762,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
