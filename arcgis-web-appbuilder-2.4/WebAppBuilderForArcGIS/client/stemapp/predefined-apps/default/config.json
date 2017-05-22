@@ -41,17 +41,19 @@
     "label": "Anvil Map Tips"
     },
     {
-        "name": "GoogleAnalytics",
-        "version": "0.0.3",
-        "openAtStart": true,
-        "uri": "widgets/GoogleAnalytics/Widget",
-        "config": "configs/GoogleAnalytics/config_GoogleAnalytics.json",
-        "id": "widgets_GoogleAnalytics_Widget_101",
-        "position": {
-          "left": -1000,
-          "bottom": -1000
-        }
-      },
+    "uri": "widgets/GoogleAnalytics/Widget",
+    "position": {
+      "left": -1000,
+      "bottom": -1000
+    },
+    "version": "1.1.1",
+    "id": "widgets/GoogleAnalytics/Widget_101",
+    "positionRelativeTo": "map",
+    "name": "GoogleAnalytics",
+    "label": "Google Analytics"
+    },
+
+
      {
       "uri": "widgets/Scalebar/Widget",
       "position": {
