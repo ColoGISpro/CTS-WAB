@@ -47,6 +47,23 @@
         "top": 45
       }
     }, {
+      "position": {
+        "left": 155,
+        "top": 45
+      }
+    },
+    {
+      "position": {
+        "left": 205,
+        "top": 45
+      }
+    },
+    {
+      "position": {
+        "left": 255,
+        "top": 45
+      }
+    }, {
       "uri": "widgets/OverviewMap/Widget",
       "position": {
         "right": 0,
