@@ -130,6 +130,11 @@ define([
     },
     
     _hideMenuIcon:function(id, label){
+      // EPD 5/17/2017  - Disableing this section becasue CTS WAB will add this widget as a "Headless" widget that is opened by default and therefor does not need to be hidden.
+      // EPD 5/17/2017  - Commmenting out lines 150-164  is needed to avoid alert at line 164
+      // 
+
+
         // should work with all themes
         // Usage, takes id and label and selects div element with a matching settingid or title.
         // Some themes use a settingsid, others use title
@@ -142,22 +147,22 @@ define([
             });
         }
         
-        var byId, byLabel, qryById, qryByLabel;
+//        var byId, byLabel, qryById, qryByLabel;
         
-        qryById = "[settingid=\'" + id + "\']";
-        nodesById = query(qryById);
-        qryByLabel = "[title=\'" + label + "\']";
-        nodesByLabel = query(qryByLabel);
+//        qryById = "[settingid=\'" + id + "\']";
+//        nodesById = query(qryById);
+//        qryByLabel = "[title=\'" + label + "\']";
+//        nodesByLabel = query(qryByLabel);
         
-        if (nodesById.length > 0){
-            hide(nodesById);
-        }
-        else if (nodesByLabel.length > 0){
-            hide(nodesByLabel);
-        }
-        else{
-            alert("Google Analytics Widget Failed to Hide it's Icon.  Widget not supported with this theme");
-        }
+//        if (nodesById.length > 0){
+//            hide(nodesById);
+//        }
+//        else if (nodesByLabel.length > 0){
+//            hide(nodesByLabel);
+//        }
+//        else{
+//            alert("Google Analytics Widget Failed to Hide it's Icon.  Widget not supported with this theme");
+//        }
     }
 
   });
