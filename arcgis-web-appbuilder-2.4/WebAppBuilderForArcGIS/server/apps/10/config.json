@@ -270,8 +270,19 @@
         "version": "1.1.6",
         "uri": "widgets/PrintPlus/Widget",
         "config": "configs/PrintPlus/config_PrintPlus.json",
-        "index": 5,
+        "index": 4,
         "id": "widgets_PrintPlus_Widget_120"
+      },
+      {
+        "name": "UrlButton",
+        "version": "2.3",
+        "uri": "widgets/UrlButton/Widget",
+        "config": "configs/UrlButton/config_UrlButton.json",
+        "index": 6,
+        "id": "widgets_UrlButton_Widget_121",
+        "position": {
+          "relativeTo": "map"
+        }
       }
     ],
     "groups": []
