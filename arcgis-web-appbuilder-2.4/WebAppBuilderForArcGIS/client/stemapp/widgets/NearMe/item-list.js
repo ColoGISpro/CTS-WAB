@@ -83,9 +83,6 @@
   registry,
   rendererJsonUtils
 ) {
-
-  // EPD - Creating a global variable to hold the extent of the current buffer.  More info: https://geonet.esri.com/thread/174031
-  var centerLocation;  
   // to create a widget, derive it from BaseWidget.
   return declare([_WidgetBase, Evented], {
     _itemListTemplate: itemListTemplate,
@@ -229,17 +226,12 @@
     * @param{object} panel
     * @memberOf widgets/NearMe/item-list
     **/
- 
-
-
-   _attachEventOnBackButton: function (panel) {
+    _attachEventOnBackButton: function (panel) {
       var divItemTitle, divBackButton;
       divItemTitle = query(".esriCTItemlList", panel)[0];
       divBackButton = query(".esriCTBackButton", panel)[0];
       if (divItemTitle && divBackButton) {
         this.own(on(divItemTitle, "click", lang.hitch(this, function (event) {
-          // EPD - Zoom back to buffer exten. More info: https://geonet.esri.com/thread/174031 
-          this.map.setExtent(centerLocation)  
           event.stopPropagation();
           if (domStyle.get(divBackButton, "display") !== "none") {
             if (this._isSlide) {
@@ -523,18 +515,12 @@
     * @param{string} value to be displayed
     * @memberOf widgets/NearMe/item-list
     **/
-    
-
-
-
     _setItemName: function (templateDiv, value) {
       var divItemName = query(".esriCTItemName", templateDiv)[0];
       if (divItemName) {
         domAttr.set(divItemName, "innerHTML", value);
         domAttr.set(divItemName, "title", value);
       }
-      // EPD - Set centerLocation extent based on current buffer. More info:  https://geonet.esri.com/thread/174031
-      centerLocation = this.map.extent.getExtent();
     },
 
     /**

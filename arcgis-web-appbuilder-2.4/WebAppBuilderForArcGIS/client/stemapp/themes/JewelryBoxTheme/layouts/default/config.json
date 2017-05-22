@@ -31,7 +31,37 @@
         "bottom": 5
       },
       "version": "2.4"
-    }, {
+    },
+    {
+    "uri": "widgets/AnvilMapTips/Widget",
+   
+    "version": "1.1",
+    "id": "widgets/AnvilMapTips/Widget_101",
+    "positionRelativeTo": "map",
+     "position": {
+      "left": -1000,
+      "bottom": -1000
+    },
+    "name": "AnvilMapTips",
+    "label": "Anvil Map Tips",
+    "visible": false
+    },
+
+    {
+    "uri": "widgets/GoogleAnalytics/Widget",
+    "version": "1.1.1",
+    "id": "widgets/GoogleAnalytics/Widget_101",
+    "positionRelativeTo": "map",
+    "position": {
+      "left": -1000,
+      "bottom": -1000
+    },
+    "name": "GoogleAnalytics",
+    "label": "Google Analytics",
+    "visible": false
+    },
+
+ {
       "position": {
         "left": 55,
         "top": 45
@@ -41,8 +71,7 @@
         "left": 105,
         "top": 45
       }
-    }, 
-    , {
+    }, {
       "position": {
         "left": 155,
         "top": 45

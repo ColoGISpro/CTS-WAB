@@ -57,14 +57,6 @@
     {
       "name": "default",
       "description": "this is default layout"
-    },
-    {
-      "name": "layout1",
-      "description": "this is layout1"
-    },
-    {
-      "name": "layout2",
-      "description": "this is layout2"
     }
   ],
   "widgets": [

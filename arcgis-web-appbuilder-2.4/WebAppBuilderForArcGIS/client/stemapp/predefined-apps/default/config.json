@@ -28,29 +28,34 @@
       },
       "version": "2.4"
     },
-    {
+
+   {
     "uri": "widgets/AnvilMapTips/Widget",
-    "position": {
-      "left": -1000,
-      "bottom": -1000
-    },
+   
     "version": "1.1",
     "id": "widgets/AnvilMapTips/Widget_101",
     "positionRelativeTo": "map",
-    "name": "AnvilMapTips",
-    "label": "Anvil Map Tips"
+     "position": {
+      "left": -1000,
+      "bottom": -1000
     },
+    "name": "AnvilMapTips",
+    "label": "Anvil Map Tips",
+    "visible": false
+    },
+
     {
     "uri": "widgets/GoogleAnalytics/Widget",
+    "version": "1.1.1",
+    "id": "widgets/GoogleAnalytics/Widget_101",
+    "positionRelativeTo": "map",
     "position": {
       "left": -1000,
       "bottom": -1000
     },
-    "version": "1.1.1",
-    "id": "widgets/GoogleAnalytics/Widget_101",
-    "positionRelativeTo": "map",
     "name": "GoogleAnalytics",
-    "label": "Google Analytics"
+    "label": "Google Analytics",
+    "visible": false
     },
 
 

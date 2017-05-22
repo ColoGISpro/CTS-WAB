@@ -1,0 +1,18 @@
+{
+  "featureLayerMapTips": {
+    "layers": {
+      "Address Points (E911)": {
+        "mapTip": "Address Point (E911): <b>{FULL_ADDR}</b><br><i>Click for more info</i>"
+      },
+      "Parcels": {
+        "mapTip": "<span>Parcel: <b>{FMTPRCLNO}</b><br></span><span>Address: <b>{LOCADDRESS}</b><br></span><span>City: <b>{LOCCITY}</b><br></span><span>Zip: <b>{LOCZIP}</b><br></span><span class='restricted'>Owner: <b>{DEEDEDOWNR}</b><br></span><span><i>Click for more info</i></span>"
+      }
+    }
+  },
+  "mapTipTimes": {
+    "delay": 500,
+    "life": 5000,
+    "fadeIn": 400,
+    "fadeOut": 400
+  }
+}

@@ -1,0 +1,163 @@
+div.jimu-widget-anvil-map-tips > div.dijitTooltipConnector {
+  opacity:0
+}
+#map .esriPopup {
+  opacity: 0.9;
+}
+#map .esriPopup td.attrName {
+  text-align: right;
+  color: black;
+}
+#map .esriPopup div.header {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+#map .esriPopup div.contentPane table {
+  border: 1px black solid;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+#map .esriPopup div.contentPane table th {
+  font-weight: normal;
+  text-align: right;
+}
+#map .esriPopup div.contentPane table td.attrName {
+  font-weight: normal;
+  text-align: right;
+}
+#map .esriPopup div.contentPane table td {
+  font-weight: bold;
+}
+#map .esriPopup div.contentPane table td, #map .esriPopup div.contentPane table th {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 1px black solid;
+}
+#map .esriPopup div.contentPane a.right-justify {
+  float: right;
+  padding-right: 15px;
+}
+#map .esriPopup div.contentPane a.left-justify {
+  float: left;
+  padding-left: 15px;
+}
+#map .esriPopup div.contentPane td.numeric {
+  text-align: right;
+}
+
+#map .esriPopup div.contentPane p.sizeDisclaimer {
+  text-align: center;
+}
+#map .esriPopup div.contentPane select.spatialReference {
+  text-align: center; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 20px;
+}
+#map .esriPopup div.contentPane select.lengthUnits {
+  width: 100%; 
+  border-width: 0px;
+}
+#map .esriPopup div.contentPane select.areaUnits {
+  width: 100%; 
+  border-width: 0px;
+}
+.esriViewPopup .mainSection div.header {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.esriViewPopup .mainSection .attrTable td.attrName {
+  text-align: right;
+  color: black;
+}
+.esriViewPopup .mainSection .attrTable td.attrValue {
+  font-weight: bold;
+  color: black;
+}
+.esriMobileInfoView {
+  opacity: 0.9;
+}
+.esriMobileInfoView .esriMobileInfoViewItem div.mediaSection {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+.esriMobileInfoView .esriMobileInfoViewItem div.header {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 5px;
+}
+.esriMobileInfoView .esriMobileInfoViewItem table {
+  border: 1px black solid;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+.esriMobileInfoView .esriMobileInfoViewItem th {
+  text-align: right;
+}
+.esriMobileInfoView .esriMobileInfoViewItem td {
+  font-weight: bold;
+}
+.esriMobileInfoView .esriMobileInfoViewItem td, th {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 1px black solid;
+}
+.esriMobileInfoView .esriMobileInfoViewItem td {
+  text-align: left;
+}
+.esriMobileInfoView .esriMobileInfoViewItem td.numeric {
+  text-align: right;
+}
+.esriMobileInfoView .esriMobileInfoViewItem a.right-justify {
+  float: right;
+  margin-right: 30px;
+}
+.esriMobileInfoView .esriMobileInfoViewItem a.left-justify {
+  float: left;
+  margin-left: 30px;
+}
+.esriMobileInfoView .esriMobileInfoViewItem p.sizeDisclaimer {
+  text-align: center;
+}
+.esriMobileInfoView .esriMobileInfoViewItem select.spatialReference {
+  text-align: center; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 20px;
+}
+.esriMobileInfoView .esriMobileInfoViewItem select.lengthUnits {
+  width: 100%; 
+  border-width: 0px;
+}
+.esriMobileInfoView .esriMobileInfoViewItem select.areaUnits {
+  width: 100%; 
+  border-width: 0px;
+}
+.esriViewPopup .gallery {
+  margin-left: auto;
+  margin-right: auto;
+} 
+.esriViewPopup .caption {
+  text-align: center;
+}
+.jimu-widget-anvil-map-tips {
+  font-family: Comic Sans MS,Myriad,Helvetica,Tahoma,Arial,clean,sans-serif;
+}
+.jimu-widget-anvil-map-tips div.dijitTooltipContainer {
+  border-radius: 10px;
+}
