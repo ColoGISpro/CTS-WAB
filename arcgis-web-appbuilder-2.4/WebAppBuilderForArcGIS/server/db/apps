@@ -40,3 +40,15 @@
 {"k":"0000000078","o":"0000000412","v":"001"}
 {"_id":4,"_uid":1,"_dt":1495468128878,"_s":"5cf056e05ffe481b323085e12e51eab6"}
 {"_id":4,"id":4,"name":"test6","description":"","lastUpdated":1495468128876,"createdTime":1495468054853,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000360","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495471777196,"_s":"67d744de2d565e7abb2936f1cb5fdc0d"}
+{"_id":5,"id":5,"name":"test10","description":"","lastUpdated":1495471777193,"createdTime":1495471777195,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false}
+{"k":"0000000078","o":"0000000411","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495471780301,"_s":"768c157b5ce212e1272f6d358926a894"}
+{"_id":5,"id":5,"name":"test10","description":"","lastUpdated":1495471780283,"createdTime":1495471777195,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
+{"k":"0000000078","o":"0000000413","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495471803239,"_s":"9b1e3c99fc9cd0f107b9a7843465ab27"}
+{"_id":5,"id":5,"name":"test10","description":"","lastUpdated":1495471803238,"createdTime":1495471777195,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000049","o":"0000000000","v":"001"}
+{"_id":4,"_uid":1,"_dt":1495471823251,"_a":"del"}
+
