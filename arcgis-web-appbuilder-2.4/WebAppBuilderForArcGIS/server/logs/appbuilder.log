@@ -1080,3 +1080,25 @@
 [2017-05-22 10:49:53.750] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes\JewelryBoxTheme
 [2017-05-22 10:50:03.231] [INFO] app - remove theme FoldableTheme from app 5
 [2017-05-22 10:50:26.372] [INFO] app - App removed, id: 4
+[2017-05-22 11:03:01.773] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-05-22 11:03:04.264] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-05-22 11:03:05.049] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-05-22 11:03:05.837] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-22 11:03:06.039] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-22 11:03:10.862] [INFO] server - Set isXT = true; /webappbuilder/apps/5/env.js
+[2017-05-22 15:59:21.951] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-05-22 15:59:36.608] [INFO] repo - insert HTML.NearMeCTS
+[2017-05-22 15:59:36.614] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-05-22 15:59:39.391] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-05-22 15:59:43.872] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-22 16:00:45.767] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-22 16:00:56.042] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-22 16:01:02.437] [INFO] server - Set isXT = true; /webappbuilder/apps/5/env.js
+[2017-05-22 16:11:24.531] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-05-22 16:11:26.575] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-22 16:11:27.134] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-05-22 16:11:27.877] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-05-22 16:11:28.525] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-22 16:11:28.728] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-22 16:11:32.722] [INFO] server - Set isXT = true; /webappbuilder/apps/5/env.js
+[2017-05-22 16:11:47.960] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\NearMeCTS
