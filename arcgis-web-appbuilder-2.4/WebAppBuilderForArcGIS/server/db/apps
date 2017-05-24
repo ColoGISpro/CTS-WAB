@@ -4,6 +4,12 @@
 {"k":"0000000078","o":"0000000413","v":"001"}
 {"_id":3,"_uid":1,"_dt":1495463891162,"_s":"b4614657710b60fbc9837d6687f75bf0"}
 {"_id":3,"id":3,"name":"test11","description":"","lastUpdated":1495463891145,"createdTime":1495463888278,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"cts.web.production","modified":"cts.web.production","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
+{"k":"0000000078","o":"0000000442","v":"001"}
+{"_id":4,"_uid":1,"_dt":1495576688665,"_s":"78960c9130c1743064f5468d7a5f7728"}
+{"_id":4,"id":4,"name":"Colorado TrailFinder","description":"Desktop version","lastUpdated":1495576688665,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000412","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495566251562,"_s":"a94b12b008b277da7342f8eb613b159d"}
+{"_id":5,"id":5,"name":"test1","description":"","lastUpdated":1495566251561,"createdTime":1495565484805,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
 {"k":"0000000096","o":"0000000352","v":"001"}
 {"_id":"HTML_basic_viewer","_uid":1,"_dt":1495405525354,"_s":"b4a0ca15b65209f5067d72cb31129e65"}
 {"createdTime":1439251200000,"lastUpdated":1439251200000,"creator":"Esri","appType":"HTML","_id":"HTML_basic_viewer","id":"HTML_basic_viewer","predefinedId":"basic_viewer","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","isTemplate":true,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
@@ -19,3 +25,21 @@
 {"k":"0000000093","o":"0000000390","v":"001"}
 {"_id":"HTML3D_default","_uid":1,"_dt":1495405527896,"_s":"79d5a5b1521058616f3b7b7029e9942f"}
 {"name":"Default","description":"_Default","createdTime":1439337600000,"lastUpdated":1439337600000,"creator":"Esri","appType":"HTML3D","_id":"HTML3D_default","id":"HTML3D_default","predefinedId":"default","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp3d\\","stemappUrl":"/webappbuilder/stemapp3d/","isTemplate":false,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000078","o":"0000000442","v":"001"}
+{"_id":4,"_uid":1,"_dt":1495638051717,"_s":"d6b5a3d60ae7f6f5126f328c2469a0a6"}
+{"_id":4,"id":4,"name":"Colorado TrailFinder","description":"Desktop version","lastUpdated":1495638051712,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000442","v":"001"}
+{"_id":4,"_uid":1,"_dt":1495638102510,"_s":"a4a98ff1643265fe68ce4f3ee72821b7"}
+{"_id":4,"id":4,"name":"Colorado TrailFinder","description":"Desktop version","lastUpdated":1495638102508,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000442","v":"001"}
+{"_id":4,"_uid":1,"_dt":1495638203968,"_s":"cdee2d2ccee35fc640fbf50573931dcb"}
+{"_id":4,"id":4,"name":"Colorado TrailFinder","description":"Desktop version","lastUpdated":1495638203966,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000442","v":"001"}
+{"_id":4,"_uid":1,"_dt":1495645052307,"_s":"ec14b9c5999fc7d6659989dbaefce0aa"}
+{"_id":4,"id":4,"name":"Colorado TrailFinder","description":"Desktop version","lastUpdated":1495645052306,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000442","v":"001"}
+{"_id":4,"_uid":1,"_dt":1495645996519,"_s":"005be2b26fbb2d55fa2f27c15017b703"}
+{"_id":4,"id":4,"name":"Colorado TrailFinder","description":"Desktop version","lastUpdated":1495645996518,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000049","o":"0000000000","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495646269765,"_a":"del"}
+
