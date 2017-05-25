@@ -734,6 +734,1036 @@
       "enableExport": false,
       "singleResultLayer": true,
       "webMapLayerId": "CTS_TF_0_AllRoutesSegs_fsView_7456"
+    },
+    {
+      "url": "http://utility.arcgis.com/usrsvcs/servers/219fd69ea8984aa69ef1cfe2ee68c69b/rest/services/CTS_TF_0_AllRoutesSegs_fsView/FeatureServer/0",
+      "name": "Allow Pack Animals",
+      "icon": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Ts_AllowPackAnimals",
+              "label": "Ts_AllowPackAnimals",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Yes"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "Ts_AllowPackAnimals = 'Yes'"
+          }
+        ],
+        "expr": "Ts_AllowPackAnimals = 'Yes'"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": {
+          "default": true
+        },
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{Ts_PrimaryName}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_PrimaryName",
+            "label": "Primary Name",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_Surface",
+            "label": "Surface",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_PrimaryUse",
+            "label": "Primary Use",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_Class",
+            "label": "Class",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_ClassBreakdown",
+            "label": "Class Breakdown",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_WheelchairStrollerFriendly",
+            "label": "Wheelchair Stroller Friendly",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_PrimaryPurpose",
+            "label": "Primary Purpose",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_NationalDesignation",
+            "label": "National Designation",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowBikes",
+            "label": "Allow Bikes",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowDogs",
+            "label": "Allow Dogs",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowPackAnimals",
+            "label": "Allow Pack Animals",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowHorses",
+            "label": "Allow Horses",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowOHVs",
+            "label": "Allow OHVs",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowOPDMDs",
+            "label": "Allow OPDMDs",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowPlatedVehicles",
+            "label": "Allow Plated Vehicles",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowSnowmobiles",
+            "label": "Allow Snowmobiles",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_PublicDataUseFlag",
+            "label": "Public Data Use Flag",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AccessRestrictions",
+            "label": "Access Restrictions",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_Manager_fk",
+            "label": "Manager fk",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_JoinField",
+            "label": "Join Field",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_DataContributorLink",
+            "label": "Data Contributor Link",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_TrailManagerLink",
+            "label": "Trail Manager Link",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_ManagerName",
+            "label": "Manager Name",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_ContributorName",
+            "label": "Data Contributor Name",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_GovType",
+            "label": "Gov. Type",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_UseClassSymbol",
+            "label": "Use + Class",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_DirectURLLink",
+            "label": "Direct Link",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_Popup",
+            "label": "htm Popup",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_MouseOver",
+            "label": "htm Mouse Over",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_SurfaceSimple",
+            "label": "Surface Simple",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_SymbolDetailed",
+            "label": "Symbol Detailed",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_SymbolSimple",
+            "label": "Symbol Simple",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_DissolvedRouteID",
+            "label": "Route ID",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_DissolvedMiles",
+            "label": "Route Miles",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          255,
+          255,
+          0,
+          128
+        ],
+        "width": 5.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "canModifySymbol": false,
+      "keepResultsOnMapAfterCloseWidget": true,
+      "enableExport": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "CTS_TF_0_AllRoutesSegs_fsView_7456"
+    },
+    {
+      "url": "http://utility.arcgis.com/usrsvcs/servers/219fd69ea8984aa69ef1cfe2ee68c69b/rest/services/CTS_TF_0_AllRoutesSegs_fsView/FeatureServer/0",
+      "name": "Allow OHVs",
+      "icon": "",
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "logicalOperator": "OR",
+            "parts": [
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(1) Roads open to all Vehicles, Yearlong"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(1) Roads open to all Vehicles, Yearlong'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(2) Roads open to all Vehicles, Seasonal"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(2) Roads open to all Vehicles, Seasonal'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(3) Roads open to highway legal vehicles only, Yearlong"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(3) Roads open to highway legal vehicles only, Yearlong'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(4) Roads open to highway legal vehicles only, Seasonal"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(4) Roads open to highway legal vehicles only, Seasonal'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(5) Trails open to all vehicles, Yearlong"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(5) Trails open to all vehicles, Yearlong'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(6) Trails open to all vehicles, Seasonal"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(6) Trails open to all vehicles, Seasonal'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(7) Trails open to vehicles 50\" or less in width, Yearlong"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(7) Trails open to vehicles 50\" or less in width, Yearlong'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(8) Trails open to vehicles 50\" or less in width, Seasonal"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(8) Trails open to vehicles 50\" or less in width, Seasonal'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(9) Trails open to motorcycles, Yearlong"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(9) Trails open to motorcycles, Yearlong'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(10) Trails open to motorcycles, Seasonal"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(10) Trails open to motorcycles, Seasonal'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(11) Special Designation, Yearlong"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(11) Special Designation, Yearlong'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(12) Special Designation, Seasonal"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(12) Special Designation, Seasonal'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(16) Wheeled OHV <50\", Yearlong"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(16) Wheeled OHV <50\", Yearlong'"
+              },
+              {
+                "fieldObj": {
+                  "name": "Ts_AllowOHVs",
+                  "label": "Ts_AllowOHVs",
+                  "shortType": "string",
+                  "type": "esriFieldTypeString"
+                },
+                "operator": "stringOperatorIs",
+                "valueObj": {
+                  "isValid": true,
+                  "type": "unique",
+                  "value": "(17) Wheeled OHV <50\", Seasonal"
+                },
+                "interactiveObj": "",
+                "caseSensitive": false,
+                "expr": "Ts_AllowOHVs = '(17) Wheeled OHV <50\", Seasonal'"
+              }
+            ],
+            "expr": "Ts_AllowOHVs = '(1) Roads open to all Vehicles, Yearlong' OR Ts_AllowOHVs = '(2) Roads open to all Vehicles, Seasonal' OR Ts_AllowOHVs = '(3) Roads open to highway legal vehicles only, Yearlong' OR Ts_AllowOHVs = '(4) Roads open to highway legal vehicles only, Seasonal' OR Ts_AllowOHVs = '(5) Trails open to all vehicles, Yearlong' OR Ts_AllowOHVs = '(6) Trails open to all vehicles, Seasonal' OR Ts_AllowOHVs = '(7) Trails open to vehicles 50\" or less in width, Yearlong' OR Ts_AllowOHVs = '(8) Trails open to vehicles 50\" or less in width, Seasonal' OR Ts_AllowOHVs = '(9) Trails open to motorcycles, Yearlong' OR Ts_AllowOHVs = '(10) Trails open to motorcycles, Seasonal' OR Ts_AllowOHVs = '(11) Special Designation, Yearlong' OR Ts_AllowOHVs = '(12) Special Designation, Seasonal' OR Ts_AllowOHVs = '(16) Wheeled OHV <50\", Yearlong' OR Ts_AllowOHVs = '(17) Wheeled OHV <50\", Seasonal'"
+          }
+        ],
+        "expr": "Ts_AllowOHVs = '(1) Roads open to all Vehicles, Yearlong' OR Ts_AllowOHVs = '(2) Roads open to all Vehicles, Seasonal' OR Ts_AllowOHVs = '(3) Roads open to highway legal vehicles only, Yearlong' OR Ts_AllowOHVs = '(4) Roads open to highway legal vehicles only, Seasonal' OR Ts_AllowOHVs = '(5) Trails open to all vehicles, Yearlong' OR Ts_AllowOHVs = '(6) Trails open to all vehicles, Seasonal' OR Ts_AllowOHVs = '(7) Trails open to vehicles 50\" or less in width, Yearlong' OR Ts_AllowOHVs = '(8) Trails open to vehicles 50\" or less in width, Seasonal' OR Ts_AllowOHVs = '(9) Trails open to motorcycles, Yearlong' OR Ts_AllowOHVs = '(10) Trails open to motorcycles, Seasonal' OR Ts_AllowOHVs = '(11) Special Designation, Yearlong' OR Ts_AllowOHVs = '(12) Special Designation, Seasonal' OR Ts_AllowOHVs = '(16) Wheeled OHV <50\", Yearlong' OR Ts_AllowOHVs = '(17) Wheeled OHV <50\", Seasonal'"
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": {
+          "default": true
+        },
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{Ts_PrimaryName}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_PrimaryName",
+            "label": "Primary Name",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_Surface",
+            "label": "Surface",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_PrimaryUse",
+            "label": "Primary Use",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_Class",
+            "label": "Class",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_ClassBreakdown",
+            "label": "Class Breakdown",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_WheelchairStrollerFriendly",
+            "label": "Wheelchair Stroller Friendly",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_PrimaryPurpose",
+            "label": "Primary Purpose",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_NationalDesignation",
+            "label": "National Designation",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowBikes",
+            "label": "Allow Bikes",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowDogs",
+            "label": "Allow Dogs",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowPackAnimals",
+            "label": "Allow Pack Animals",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowHorses",
+            "label": "Allow Horses",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowOHVs",
+            "label": "Allow OHVs",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowOPDMDs",
+            "label": "Allow OPDMDs",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowPlatedVehicles",
+            "label": "Allow Plated Vehicles",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AllowSnowmobiles",
+            "label": "Allow Snowmobiles",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_PublicDataUseFlag",
+            "label": "Public Data Use Flag",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_AccessRestrictions",
+            "label": "Access Restrictions",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_Manager_fk",
+            "label": "Manager fk",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_JoinField",
+            "label": "Join Field",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_DataContributorLink",
+            "label": "Data Contributor Link",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_TrailManagerLink",
+            "label": "Trail Manager Link",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_ManagerName",
+            "label": "Manager Name",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_ContributorName",
+            "label": "Data Contributor Name",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_GovType",
+            "label": "Gov. Type",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_UseClassSymbol",
+            "label": "Use + Class",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_DirectURLLink",
+            "label": "Direct Link",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_Popup",
+            "label": "htm Popup",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "htm_MouseOver",
+            "label": "htm Mouse Over",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_SurfaceSimple",
+            "label": "Surface Simple",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_SymbolDetailed",
+            "label": "Symbol Detailed",
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_SymbolSimple",
+            "label": "Symbol Simple",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_DissolvedRouteID",
+            "label": "Route ID",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Ts_DissolvedMiles",
+            "label": "Route Miles",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          255,
+          255,
+          0,
+          133
+        ],
+        "width": 5.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "canModifySymbol": false,
+      "keepResultsOnMapAfterCloseWidget": true,
+      "enableExport": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "CTS_TF_0_AllRoutesSegs_fsView_7456"
+    },
+    {
+      "url": "http://utility.arcgis.com/usrsvcs/servers/219fd69ea8984aa69ef1cfe2ee68c69b/rest/services/CTS_TF_0_AllRoutesSegs_fsView/FeatureServer/0",
+      "name": "Seasonal Restrictions",
+      "icon": "",
+      "filter": {
+        "logicalOperator": "OR",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "Ts_AccessRestrictions",
+              "label": "Ts_AccessRestrictions",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Seasonal Restrictions"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "Ts_AccessRestrictions = 'Seasonal Restrictions'"
+          },
+          {
+            "fieldObj": {
+              "name": "Ts_AccessRestrictions",
+              "label": "Ts_AccessRestrictions",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "unique",
+              "value": "Unknown"
+            },
+            "interactiveObj": "",
+            "caseSensitive": false,
+            "expr": "Ts_AccessRestrictions = 'Unknown'"
+          }
+        ],
+        "expr": "(Ts_AccessRestrictions = 'Seasonal Restrictions') OR (Ts_AccessRestrictions = 'Unknown')"
+      },
+      "showSQL": true,
+      "spatialFilter": {
+        "currentMapExtent": {
+          "default": true
+        },
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "readFromWebMap": true
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "canModifySymbol": false,
+      "keepResultsOnMapAfterCloseWidget": true,
+      "enableExport": false,
+      "singleResultLayer": true,
+      "webMapLayerId": "CTS_TF_0_AllRoutesSegs_fsView_7456"
     }
   ]
 }

@@ -420,11 +420,14 @@
         "config": "configs/Legend/config_Legend.json"
       },
       {
-        "uri": "widgets/LayerList/Widget",
-        "version": "2.4",
-        "id": "widgets_LayerList_Widget_119",
-        "name": "LayerList",
-        "index": 3
+        "name": "NearMeCTS",
+        "label": "List Trails Near",
+        "version": "2.3",
+        "IsController": false,
+        "uri": "widgets/NearMeCTS/Widget",
+        "config": "configs/NearMeCTS/config_List Trails Near.json",
+        "index": 3,
+        "id": "widgets_NearMeCTS_Widget_143"
       },
       {
         "name": "Query",
@@ -436,11 +439,27 @@
         "config": "configs/Query/config_Allowed Use Highlighter.json"
       },
       {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.4",
+        "id": "widgets_LayerList_Widget_119",
+        "name": "LayerList",
+        "index": 5,
+        "config": "configs/LayerList/config_LayerList.json"
+      },
+      {
+        "name": "About",
+        "version": "2.4",
+        "uri": "widgets/About/Widget",
+        "config": "configs/About/config_About.json",
+        "index": 6,
+        "id": "widgets_About_Widget_142"
+      },
+      {
         "name": "Share",
         "version": "2.0.1",
         "uri": "widgets/SimpleShare/Widget",
         "config": "configs/Share/config_Share.json",
-        "index": 5,
+        "index": 7,
         "id": "widgets_SimpleShare_Widget_140"
       },
       {
@@ -450,19 +469,11 @@
         "icon": "configs\\UrlButton\\icon_Switch to mobile version.png",
         "uri": "widgets/UrlButton/Widget",
         "config": "configs/UrlButton/config_Switch to mobile version.json",
-        "index": 6,
+        "index": 8,
         "id": "widgets_UrlButton_Widget_141",
         "position": {
           "relativeTo": "map"
         }
-      },
-      {
-        "name": "About",
-        "version": "2.4",
-        "uri": "widgets/About/Widget",
-        "config": "configs/About/config_About.json",
-        "index": 8,
-        "id": "widgets_About_Widget_142"
       }
     ],
     "groups": []
