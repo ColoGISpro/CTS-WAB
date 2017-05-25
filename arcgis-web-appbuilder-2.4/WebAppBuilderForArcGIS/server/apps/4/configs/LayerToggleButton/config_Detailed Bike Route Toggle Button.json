@@ -1,5 +1,8 @@
 {
   "layerOptions": {
+    "CTS_TF_6_Summary_flView_4819": {
+      "display": false
+    },
     "CTS_TF_6_Summary_flView_6480": {
       "display": false
     },
@@ -62,9 +65,6 @@
     },
     "CTS_TF_4_BikeLane_flView_4938": {
       "display": true
-    },
-    "CTS_TF_6_Summary_flView_4819": {
-      "display": false
     },
     "CTS_TF_6_SummaryStats_5582": {
       "display": false

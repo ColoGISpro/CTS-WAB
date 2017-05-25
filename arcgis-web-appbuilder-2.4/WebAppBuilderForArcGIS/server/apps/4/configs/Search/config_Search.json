@@ -1,5 +1,5 @@
 {
-  "allPlaceholder": "<-- Search specific layer",
+  "allPlaceholder": "Trail, Manager, Place, Address",
   "showInfoWindowOnSelect": true,
   "sources": [
     {
@@ -14,19 +14,17 @@
       "exactMatch": false,
       "searchInCurrentMapExtent": false,
       "zoomScale": 50000,
-      "maxSuggestions": 2,
+      "maxSuggestions": 3,
       "maxResults": 6,
       "type": "query"
     },
     {
-      "layerId": "CTS_TF_6_Summary_flView_1315",
-      "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/2",
-      "name": "Trail Manager",
+      "layerId": "CTS_TF_6_Summary_flView_6480",
+      "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/1",
+      "name": "Trail Managers",
       "placeholder": "Chatfield State Park",
-      "searchFields": [
-        "Ts_ManagerName"
-      ],
-      "displayField": "Ts_ManagerName",
+      "searchFields": [],
+      "displayField": "Stat_AreaName",
       "exactMatch": false,
       "searchInCurrentMapExtent": false,
       "zoomScale": 50000,
@@ -54,10 +52,10 @@
       "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
       "name": "Esri World Geocoder",
       "singleLineFieldName": "SingleLine",
-      "placeholder": "Address or Place",
-      "countryCode": "USA",
+      "placeholder": "Place or Address",
+      "countryCode": "",
       "zoomScale": 50000,
-      "maxSuggestions": 2,
+      "maxSuggestions": 3,
       "maxResults": 6,
       "searchInCurrentMapExtent": false,
       "enableLocalSearch": true,
