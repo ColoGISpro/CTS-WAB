@@ -444,7 +444,8 @@
         "id": "widgets_LayerList_Widget_119",
         "name": "LayerList",
         "index": 5,
-        "config": "configs/LayerList/config_LayerList.json"
+        "config": "configs/LayerList/config_Base Layers.json",
+        "label": "Base Layers"
       },
       {
         "name": "About",
