@@ -15,7 +15,9 @@
   },
   "portalUrl": "http://colotrails.maps.arcgis.com",
   "appId": "",
-  "authorizedCrossOriginDomains": [],
+  "authorizedCrossOriginDomains": [
+    "cts.state.co.us"
+  ],
   "title": "Colorado TrailFinder",
   "subtitle": "<div class=\"attribute-custom-style\"><font size=\"1\">desktop</font></div>",
   "keepAppState": true,
@@ -448,11 +450,19 @@
         "icon": "configs\\UrlButton\\icon_Switch to mobile version.png",
         "uri": "widgets/UrlButton/Widget",
         "config": "configs/UrlButton/config_Switch to mobile version.json",
-        "index": 7,
+        "index": 6,
         "id": "widgets_UrlButton_Widget_141",
         "position": {
           "relativeTo": "map"
         }
+      },
+      {
+        "name": "About",
+        "version": "2.4",
+        "uri": "widgets/About/Widget",
+        "config": "configs/About/config_About.json",
+        "index": 8,
+        "id": "widgets_About_Widget_142"
       }
     ],
     "groups": []
