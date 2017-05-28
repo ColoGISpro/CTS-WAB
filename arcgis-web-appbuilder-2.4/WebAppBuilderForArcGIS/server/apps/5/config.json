@@ -1,0 +1,699 @@
+{
+  "theme": {
+    "name": "JewelryBoxTheme",
+    "styles": [
+      "default",
+      "yellow",
+      "black",
+      "green",
+      "cyan",
+      "red",
+      "purple",
+      "blue"
+    ],
+    "version": "2.4"
+  },
+  "portalUrl": "http://colotrails.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [
+    "cts.state.co.us"
+  ],
+  "title": "Colorado TrailFinder",
+  "subtitle": "<div class=\"attribute-custom-style\"><font size=\"1\">desktop</font></div>",
+  "keepAppState": true,
+  "logo": "images/logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "CTS Home",
+      "url": "http://cpw.state.co.us/cts"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/JewelryBoxTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.4",
+        "id": "themes_JewelryBoxTheme_widgets_HeaderController_Widget_121",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_Scalebar_Widget_122",
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_Scalebar.json"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_Search_Widget_123",
+        "name": "Search",
+        "config": "configs/Search/config_Search.json"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_Coordinate_Widget_124",
+        "name": "Coordinate",
+        "config": "configs/Coordinate/config_Coordinate.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/AnvilMapTips/Widget",
+        "version": "1.1.0",
+        "id": "widgets_AnvilMapTips_Widget_101",
+        "positionRelativeTo": "map",
+        "position": {
+          "left": -1000,
+          "bottom": -1000,
+          "relativeTo": "map"
+        },
+        "name": "AnvilMapTips",
+        "label": "Anvil Map Tips",
+        "config": "configs/AnvilMapTips/config_Anvil Map Tips.json"
+      },
+      {
+        "uri": "widgets/GoogleAnalytics/Widget",
+        "version": "0.0.2",
+        "id": "widgets_GoogleAnalytics_Widget_101",
+        "positionRelativeTo": "map",
+        "position": {
+          "left": -1000,
+          "bottom": -1000,
+          "relativeTo": "map"
+        },
+        "name": "GoogleAnalytics",
+        "openAtStart": true,
+        "config": "configs/GoogleAnalytics/config_GoogleAnalytics.json"
+      },
+      {
+        "position": {
+          "left": 55,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_125",
+        "name": "LayerToggleButton",
+        "label": "Simple All Trails Toggle Button",
+        "version": "2.3",
+        "closeable": true,
+        "icon": "configs\\LayerToggleButton\\icon_Simple All Trails Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Simple All Trails Toggle Button.json"
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 2,
+        "id": "_126",
+        "name": "LayerToggleButton",
+        "label": "Detailed Non-mechanized Toggle Button",
+        "version": "2.3",
+        "closeable": true,
+        "icon": "configs\\LayerToggleButton\\icon_Detailed Non-mechanized Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Detailed Non-mechanized Toggle Button.json"
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 3,
+        "id": "_127",
+        "name": "LayerToggleButton",
+        "label": "Detailed Multi-use Trail Toggle Button",
+        "version": "2.3",
+        "closeable": true,
+        "icon": "configs\\LayerToggleButton\\icon_Detailed Multi-use Trail Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Detailed Multi-use Trail Toggle Button.json"
+      },
+      {
+        "position": {
+          "left": 205,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 4,
+        "id": "_128",
+        "name": "LayerToggleButton",
+        "label": "Detailed Motorized Toggle Button",
+        "version": "2.3",
+        "closeable": true,
+        "icon": "configs\\LayerToggleButton\\icon_Detailed Motorized Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Detailed Motorized Toggle Button.json"
+      },
+      {
+        "position": {
+          "left": 255,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 5,
+        "id": "_129",
+        "name": "LayerToggleButton",
+        "label": "Detailed Bike Route Toggle Button",
+        "version": "2.3",
+        "closeable": true,
+        "icon": "configs\\LayerToggleButton\\icon_Detailed Bike Route Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Detailed Bike Route Toggle Button.json"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_OverviewMap_Widget_130",
+        "name": "OverviewMap",
+        "config": "configs/OverviewMap/config_OverviewMap.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_HomeButton_Widget_131",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_MyLocation_Widget_132",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "version": "2.4",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "id": "widgets_AttributeTable_Widget_133",
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_AttributeTable.json",
+        "visible": false
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.4",
+        "id": "widgets_Splash_Widget_134",
+        "name": "Splash",
+        "config": "configs/Splash/config_Splash.json"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_ZoomSlider_Widget_135",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 148,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.4",
+        "id": "widgets_ExtentNavigate_Widget_136",
+        "name": "ExtentNavigate"
+      }
+    ],
+    "groups": [
+      {
+        "visible": false,
+        "panel": {
+          "uri": "themes/JewelryBoxTheme/panels/LDockablePanel/Panel",
+          "position": {
+            "left": 0,
+            "top": 40,
+            "bottom": 0,
+            "width": 360,
+            "relativeTo": "browser"
+          }
+        },
+        "maxWidgets": 1,
+        "id": "_120",
+        "widgets": [
+          {
+            "name": "Legend",
+            "label": "Legend_2",
+            "version": "2.4",
+            "closeable": true,
+            "uri": "widgets/Legend/Widget",
+            "config": "configs/Legend/config_Legend_2.json",
+            "id": "widgets_Legend_Widget_145"
+          }
+        ],
+        "label": "Group_0",
+        "icon": "widgets/PopupPanel/images/icon.png?wab_dv=2.4"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "d161cbe280954c3691f57e0084f9b8ae",
+    "mapOptions": {
+      "extent": {
+        "xmin": -13638455.728190878,
+        "ymin": 3658572.184023072,
+        "xmax": -9920558.672400894,
+        "ymax": 5735213.368474188,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      },
+      "lods": [
+        {
+          "level": 0,
+          "scale": 18489297.737236,
+          "resolution": 4891.96981024998
+        },
+        {
+          "level": 1,
+          "scale": 9244648.868618,
+          "resolution": 2445.98490512499
+        },
+        {
+          "level": 2,
+          "scale": 4622324.434309,
+          "resolution": 1222.992452562495
+        },
+        {
+          "level": 3,
+          "scale": 2311162.217155,
+          "resolution": 611.4962262813797
+        },
+        {
+          "level": 4,
+          "scale": 1155581.108577,
+          "resolution": 305.74811314055756
+        },
+        {
+          "level": 5,
+          "scale": 577790.554289,
+          "resolution": 152.87405657041106
+        },
+        {
+          "level": 6,
+          "scale": 288895.277144,
+          "resolution": 76.43702828507324
+        },
+        {
+          "level": 7,
+          "scale": 144447.638572,
+          "resolution": 38.21851414253662
+        },
+        {
+          "level": 8,
+          "scale": 72223.819286,
+          "resolution": 19.10925707126831
+        },
+        {
+          "level": 9,
+          "scale": 36111.909643,
+          "resolution": 9.554628535634155
+        },
+        {
+          "level": 10,
+          "scale": 18055.954822,
+          "resolution": 4.77731426794937
+        },
+        {
+          "level": 11,
+          "scale": 9027.977411,
+          "resolution": 2.388657133974685
+        },
+        {
+          "level": 12,
+          "scale": 4513.988705,
+          "resolution": 1.1943285668550503
+        },
+        {
+          "level": 13,
+          "scale": 2256.994353,
+          "resolution": 0.5971642835598172
+        }
+      ]
+    },
+    "id": "map",
+    "portalUrl": "http://colotrails.maps.arcgis.com"
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/JewelryBoxTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.4",
+        "id": "widgets_Legend_Widget_118",
+        "name": "Legend",
+        "index": 2,
+        "config": "configs/Legend/config_Legend.json"
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.4",
+        "id": "widgets_LayerList_Widget_119",
+        "name": "LayerList",
+        "index": 3,
+        "config": "configs/LayerList/config_Base Layers.json",
+        "label": "Base Layers"
+      },
+      {
+        "name": "About",
+        "version": "2.4",
+        "uri": "widgets/About/Widget",
+        "config": "configs/About/config_About.json",
+        "index": 4,
+        "id": "widgets_About_Widget_142"
+      },
+      {
+        "name": "Share",
+        "version": "2.0.1",
+        "uri": "widgets/SimpleShare/Widget",
+        "config": "configs/Share/config_Share.json",
+        "index": 5,
+        "id": "widgets_SimpleShare_Widget_140"
+      },
+      {
+        "name": "UrlButton",
+        "label": "Switch to mobile version",
+        "version": "2.3",
+        "icon": "configs\\UrlButton\\icon_Switch to mobile version.png",
+        "uri": "widgets/UrlButton/Widget",
+        "config": "configs/UrlButton/config_Switch to mobile version.json",
+        "index": 6,
+        "id": "widgets_UrlButton_Widget_141",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "LayerToggleButton",
+        "label": "Toggle Popups Button",
+        "version": "2.3",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Toggle Popups Button.json",
+        "index": 7,
+        "id": "widgets_LayerToggleButton_Widget_143",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "PopupPanel",
+        "version": "2.4",
+        "uri": "widgets/PopupPanel/Widget",
+        "config": "configs/PopupPanel/config_PopupPanel.json",
+        "index": 9,
+        "id": "widgets_PopupPanel_Widget_144",
+        "openAtStart": true
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/JewelryBoxTheme/widgets/HeaderController/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 40,
+            "relativeTo": "browser"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 40,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 55,
+            "top": 5
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 17,
+            "relativeTo": "map"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/AnvilMapTips/Widget",
+          "version": "1.1",
+          "id": "widgets/AnvilMapTips/Widget_101",
+          "positionRelativeTo": "map",
+          "position": {
+            "left": -1000,
+            "bottom": -1000
+          },
+          "name": "AnvilMapTips",
+          "label": "Anvil Map Tips",
+          "visible": false
+        },
+        {
+          "uri": "widgets/GoogleAnalytics/Widget",
+          "version": "1.1.1",
+          "id": "widgets/GoogleAnalytics/Widget_101",
+          "positionRelativeTo": "map",
+          "position": {
+            "left": -1000,
+            "bottom": -1000
+          },
+          "name": "GoogleAnalytics",
+          "label": "Google Analytics",
+          "visible": false
+        },
+        {
+          "position": {
+            "left": 55,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 105,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 155,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 205,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 255,
+            "top": 45
+          }
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 75
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 110
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.4",
+          "position": {
+            "relativeTo": "browser"
+          }
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "top": 5,
+            "left": 7
+          },
+          "version": "2.4"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 148,
+            "left": 7
+          },
+          "version": "2.4"
+        }
+      ],
+      "groups": [
+        {
+          "visible": false,
+          "panel": {
+            "uri": "themes/JewelryBoxTheme/panels/LDockablePanel/Panel",
+            "position": {
+              "left": 0,
+              "top": 40,
+              "bottom": 0,
+              "width": 360,
+              "relativeTo": "browser"
+            }
+          },
+          "maxWidgets": 1
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 40,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/JewelryBoxTheme/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#e2e2e2",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/loading.gif",
+      "width": 74,
+      "height": 74
+    }
+  },
+  "wabVersion": "2.4",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "url": "/proxy.js"
+  }
+}

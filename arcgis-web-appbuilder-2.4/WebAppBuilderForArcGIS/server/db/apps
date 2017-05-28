@@ -22,3 +22,33 @@
 {"k":"0000000093","o":"0000000390","v":"001"}
 {"_id":"HTML3D_default","_uid":1,"_dt":1495405527896,"_s":"79d5a5b1521058616f3b7b7029e9942f"}
 {"name":"Default","description":"_Default","createdTime":1439337600000,"lastUpdated":1439337600000,"creator":"Esri","appType":"HTML3D","_id":"HTML3D_default","id":"HTML3D_default","predefinedId":"default","thumbnail":"images/thumbnail.jpg","stemappPath":"client\\stemapp3d\\","stemappUrl":"/webappbuilder/stemapp3d/","isTemplate":false,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000078","o":"0000000456","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495740904013,"_s":"230eea7f6734b2916ae2b6a5f68e39d5"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder_copy-1","description":"Desktop version v1.4.1","lastUpdated":1495740904012,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000455","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495741017657,"_s":"42dc14ad0009184bbed0e7c28406f90b"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder mobile","description":"Mobile version v1.5.0","lastUpdated":1495741017655,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000455","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495741658696,"_s":"5d9ce3497919898e6a96a78ba660e48a"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder mobile","description":"Mobile version v1.5.0","lastUpdated":1495741658692,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000455","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495741793440,"_s":"af2de22a017d8bc631a1b306d8ad664a"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder mobile","description":"Mobile version v1.5.0","lastUpdated":1495741793439,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000455","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495741993126,"_s":"9a9b6b04df7556f10a397612354933b3"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder mobile","description":"Mobile version v1.5.0","lastUpdated":1495741993125,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000455","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495742446497,"_s":"48474b31152299be1fdc2d2bad08ae10"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder mobile","description":"Mobile version v1.5.0","lastUpdated":1495742446496,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000455","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495744744478,"_s":"fe5903cb488bc2411ef6db8412c11cb3"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder mobile","description":"Mobile version v1.5.0","lastUpdated":1495744744475,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000455","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495747458293,"_s":"06a8c8005859faeed8d998cf1d5ca970"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder mobile","description":"Mobile version v1.5.0","lastUpdated":1495747458292,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000455","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495747541694,"_s":"fbe0cef8aab42887928724c23ae61a67"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder mobile","description":"Mobile version v1.5.0","lastUpdated":1495747541694,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000455","v":"001"}
+{"_id":5,"_uid":1,"_dt":1495747555201,"_s":"a047df70b0e61f321559d91e8c91670d"}
+{"_id":5,"id":5,"name":"Colorado TrailFinder mobile","description":"Mobile version v1.5.0","lastUpdated":1495747555201,"createdTime":1495740904012,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
