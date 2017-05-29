@@ -192,7 +192,9 @@
         },
         "version": "2.4",
         "id": "widgets_OverviewMap_Widget_130",
-        "name": "OverviewMap"
+        "name": "OverviewMap",
+        "config": "configs/OverviewMap/config_OverviewMap.json",
+        "visible": false
       },
       {
         "uri": "widgets/HomeButton/Widget",
@@ -256,8 +258,7 @@
         },
         "version": "2.4",
         "id": "widgets_ExtentNavigate_Widget_136",
-        "name": "ExtentNavigate",
-        "config": null
+        "name": "ExtentNavigate"
       },
       {
         "uri": "widgets/MapProgress/Widget",
@@ -690,13 +691,16 @@
   "loadingPage": {
     "backgroundColor": "#e2e2e2",
     "backgroundImage": {
-      "visible": false
+      "visible": true,
+      "uri": "configs/loading/images/background.png",
+      "width": 400,
+      "height": 92
     },
     "loadingGif": {
       "visible": true,
       "uri": "configs/loading/images/loading.gif",
-      "width": 74,
-      "height": 74
+      "width": 35,
+      "height": 35
     }
   },
   "wabVersion": "2.4",

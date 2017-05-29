@@ -112,3 +112,18 @@
 {"k":"0000000078","o":"0000000479","v":"001"}
 {"_id":6,"_uid":1,"_dt":1496089091912,"_s":"f1062d05cab0705d5b85ef1d4fcb3eee"}
 {"_id":6,"id":6,"name":"COTREX - mobile map","description":"Colorado Trail Explorer - mobile map   version v1.6.3","lastUpdated":1496089091911,"createdTime":1496083974866,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000481","v":"001"}
+{"_id":4,"_uid":1,"_dt":1496089426040,"_s":"e0ed5a8347b009210dc39927dfc48008"}
+{"_id":4,"id":4,"name":"COTREX - desktop map","description":"Colorado Trail Explorer - desktop map   version v1.4.2","lastUpdated":1496089426036,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000481","v":"001"}
+{"_id":4,"_uid":1,"_dt":1496090134374,"_s":"cda2e34a3c9d269eb8d3e8d56ac048fc"}
+{"_id":4,"id":4,"name":"COTREX - desktop map","description":"Colorado Trail Explorer - desktop map   version v1.4.2","lastUpdated":1496090134373,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000481","v":"001"}
+{"_id":4,"_uid":1,"_dt":1496091286976,"_s":"79dbeed1282ca6194181e85f489c259f"}
+{"_id":4,"id":4,"name":"COTREX - desktop map","description":"Colorado Trail Explorer - desktop map   version v1.4.2","lastUpdated":1496091286975,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000481","v":"001"}
+{"_id":4,"_uid":1,"_dt":1496091314236,"_s":"e5b9781ab1d2874ef7197395d6e37e86"}
+{"_id":4,"id":4,"name":"COTREX - desktop map","description":"Colorado Trail Explorer - desktop map   version v1.4.2","lastUpdated":1496091314235,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
+{"k":"0000000078","o":"0000000481","v":"001"}
+{"_id":4,"_uid":1,"_dt":1496091413422,"_s":"936dd069874b13f2d28a4b76347f94d7"}
+{"_id":4,"id":4,"name":"COTREX - desktop map","description":"Colorado Trail Explorer - desktop map   version v1.4.3","lastUpdated":1496091413421,"createdTime":1495558977094,"appType":"HTML","stemappPath":"client\\stemapp\\","stemappUrl":"/webappbuilder/stemapp/","creator":"eric_drummond_CTS","modified":"eric_drummond_CTS","portalUrl":"//colotrails.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#596679","themeName":"JewelryBoxTheme"}
