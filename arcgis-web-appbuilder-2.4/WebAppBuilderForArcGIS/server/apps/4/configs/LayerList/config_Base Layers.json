@@ -1,11 +1,11 @@
 {
   "showLegend": true,
   "contextMenu": {
-    "ZoomTo": false,
-    "Transparency": false,
+    "ZoomTo": true,
+    "Transparency": true,
     "EnableOrDisablePopup": false,
-    "MoveupOrMovedown": false,
-    "OpenAttributeTable": false,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
     "DescriptionOrShowItemDetailsOrDownload": false
   },
   "layerOptions": {
@@ -13,19 +13,19 @@
       "display": false
     },
     "CTS_TF_6_Summary_flView_4819": {
-      "display": false
+      "display": true
     },
     "CTS_TF_6_Summary_flView_6480": {
-      "display": false
+      "display": true
     },
     "CTS_TF_6_Summary_flView_1315": {
-      "display": false
+      "display": true
     },
     "CTS_TF_0_AllRoutesSegs_fsView_7456": {
-      "display": false
+      "display": true
     },
     "CTS_TF_0_RoutesSimple_flView_7834_9803": {
-      "display": false
+      "display": true
     },
     "CTS_TF_0_AllRoutesSegs_fsView_8972": {
       "display": true
@@ -77,6 +77,9 @@
     },
     "CTS_TF_4_BikeLane_flView_4938": {
       "display": false
+    },
+    "TP_COMaP_Detailed_InternalFS_3871": {
+      "display": true
     },
     "CTS_TF_6_SummaryStats_5582": {
       "display": false
@@ -193,6 +196,12 @@
       "display": true
     },
     "NatGeo_World_Map_4381_0": {
+      "display": true
+    },
+    "World_Street_Map_9096": {
+      "display": true
+    },
+    "World_Street_Map_9096_0": {
       "display": true
     },
     "World_Topo_Map_7949": {

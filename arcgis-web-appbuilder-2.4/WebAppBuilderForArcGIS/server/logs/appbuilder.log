@@ -1627,3 +1627,32 @@
 [2017-05-28 20:38:02.250] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
 [2017-05-28 20:41:39.793] [INFO] app - remove widget config config_Print 2.json from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\4\
 [2017-05-28 20:41:48.993] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-29 10:56:42.017] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-05-29 10:56:45.113] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-05-29 10:56:45.600] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-29 10:56:45.924] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-05-29 10:56:47.100] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-29 10:58:41.438] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-29 10:59:47.064] [INFO] server - Set isXT = true; /webappbuilder/apps/5/env.js
+[2017-05-29 11:08:01.254] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-05-29 11:08:10.041] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-29 11:08:20.646] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-29 11:08:33.440] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-05-29 11:08:40.736] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-05-29 11:08:45.332] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-29 11:42:31.342] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-29 11:42:34.025] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-29 11:45:26.032] [INFO] app - remove widget icon icon_Switch to mobile version.png from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\4\
+[2017-05-29 11:45:26.036] [INFO] app - remove widget config config_Switch to mobile version.json from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\4\
+[2017-05-29 11:47:12.329] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-29 11:57:22.958] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-05-29 11:57:25.533] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-05-29 11:57:26.099] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-05-29 11:57:26.838] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-29 11:57:27.055] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-29 11:58:24.039] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-29 12:02:13.742] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-29 12:02:19.370] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-29 12:28:40.786] [INFO] server - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
+[2017-05-29 12:28:40.902] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-29 12:30:12.765] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js

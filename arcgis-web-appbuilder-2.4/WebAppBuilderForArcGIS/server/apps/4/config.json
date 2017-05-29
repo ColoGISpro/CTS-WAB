@@ -73,8 +73,7 @@
         "version": "2.4",
         "id": "widgets_Coordinate_Widget_124",
         "name": "Coordinate",
-        "config": "configs/Coordinate/config_Coordinate.json",
-        "visible": false
+        "config": "configs/Coordinate/config_Coordinate.json"
       },
       {
         "uri": "widgets/AnvilMapTips/Widget",
@@ -225,8 +224,7 @@
         },
         "id": "widgets_AttributeTable_Widget_133",
         "name": "AttributeTable",
-        "config": "configs/AttributeTable/config_AttributeTable.json",
-        "visible": false
+        "config": "configs/AttributeTable/config_AttributeTable.json"
       },
       {
         "uri": "widgets/Splash/Widget",
@@ -251,7 +249,6 @@
       },
       {
         "uri": "widgets/ExtentNavigate/Widget",
-        "visible": false,
         "position": {
           "top": 148,
           "left": 7,
@@ -259,7 +256,22 @@
         },
         "version": "2.4",
         "id": "widgets_ExtentNavigate_Widget_136",
-        "name": "ExtentNavigate"
+        "name": "ExtentNavigate",
+        "config": null
+      },
+      {
+        "uri": "widgets/MapProgress/Widget",
+        "version": "2.3",
+        "id": "widgets_MapProgress_Widget_1115",
+        "IsController": false,
+        "name": "MapProgress",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "relativeTo": "map"
+        },
+        "positionRelativeTo": "map",
+        "config": "configs/MapProgress/config_MapProgress.json"
       }
     ],
     "groups": [
@@ -468,11 +480,11 @@
       },
       {
         "name": "UrlButton",
-        "label": "Switch to mobile version",
+        "label": "Switch to COTREX mobile",
         "version": "2.3",
-        "icon": "configs\\UrlButton\\icon_Switch to mobile version.png",
+        "icon": "configs\\UrlButton\\icon_Switch to COTREX mobile.png",
         "uri": "widgets/UrlButton/Widget",
-        "config": "configs/UrlButton/config_Switch to mobile version.json",
+        "config": "configs/UrlButton/config_Switch to COTREX mobile.json",
         "index": 9,
         "id": "widgets_UrlButton_Widget_141",
         "position": {

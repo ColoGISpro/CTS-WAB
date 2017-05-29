@@ -1,5 +1,1728 @@
 {
-  "layerInfos": [],
+  "layerInfos": [
+    {
+      "name": "Featured Content",
+      "id": "CTS_TF_6_Summary_flView_4819_6661",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Colorado Summary",
+      "id": "CTS_TF_6_Summary_flView_4819",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/0",
+        "fields": [
+          {
+            "show": true,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "Stat_FIPSCODE",
+            "alias": "Stat_FIPSCODE"
+          },
+          {
+            "show": true,
+            "name": "Stat_AreaName",
+            "alias": "State Name"
+          },
+          {
+            "show": true,
+            "name": "Stat_Tr_Mileage",
+            "alias": "Total (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_Tr_Count",
+            "alias": "# of Trails"
+          },
+          {
+            "show": true,
+            "name": "Stat_TH_Count",
+            "alias": "# of Trailheads"
+          },
+          {
+            "show": true,
+            "name": "Stat_Manager_Count",
+            "alias": "# of Trail Managers"
+          },
+          {
+            "show": true,
+            "name": "Stat_Contributor_Count",
+            "alias": "# of Data Contributors"
+          },
+          {
+            "show": true,
+            "name": "Stat_LastUpdated",
+            "alias": "Last Updated"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseNonMech_Miles",
+            "alias": "Hiker Only (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseNonMoto_Miles",
+            "alias": "Non-motorized (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseMotorized_Miles",
+            "alias": "Motorized (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseBikeRoute_Miles",
+            "alias": "Bike Route (miles)"
+          },
+          {
+            "show": false,
+            "name": "htm_Popup",
+            "alias": "htm_Popup"
+          },
+          {
+            "show": false,
+            "name": "htm_MouseOver",
+            "alias": "htm_MouseOver"
+          },
+          {
+            "show": false,
+            "name": "Shape__Area",
+            "alias": "Shape__Area"
+          },
+          {
+            "show": false,
+            "name": "Shape__Length",
+            "alias": "Shape__Length"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "County Summary",
+      "id": "CTS_TF_6_Summary_flView_6480",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/1",
+        "fields": [
+          {
+            "show": true,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "Stat_FIPSCODE",
+            "alias": "FIPSCODE"
+          },
+          {
+            "show": true,
+            "name": "Stat_AreaName",
+            "alias": "County Name"
+          },
+          {
+            "show": true,
+            "name": "Stat_Tr_Mileage",
+            "alias": "Total (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_Tr_Count",
+            "alias": "# of Trails"
+          },
+          {
+            "show": true,
+            "name": "Stat_TH_Count",
+            "alias": "# of Trailheads"
+          },
+          {
+            "show": true,
+            "name": "Stat_Manager_Count",
+            "alias": "# of Trail Managers"
+          },
+          {
+            "show": true,
+            "name": "Stat_Contributor_Count",
+            "alias": "# of Data Contributors"
+          },
+          {
+            "show": true,
+            "name": "Stat_LastUpdated",
+            "alias": "Last Updated"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseNonMech_Miles",
+            "alias": "Hiker Only (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseNonMoto_Miles",
+            "alias": "Non-motorized (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseMotorized_Miles",
+            "alias": "Motorized (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseBikeRoute_Miles",
+            "alias": "Bike Route (miles)"
+          },
+          {
+            "show": false,
+            "name": "htm_Popup",
+            "alias": "htm_Popup"
+          },
+          {
+            "show": false,
+            "name": "htm_MouseOver",
+            "alias": "htm_MouseOver"
+          },
+          {
+            "show": false,
+            "name": "Shape__Area",
+            "alias": "Shape__Area"
+          },
+          {
+            "show": false,
+            "name": "Shape__Length",
+            "alias": "Shape__Length"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Trail Manager Summary",
+      "id": "CTS_TF_6_Summary_flView_1315",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/2",
+        "fields": [
+          {
+            "show": true,
+            "name": "Ts_ManagerName",
+            "alias": "Manager Name"
+          },
+          {
+            "show": true,
+            "name": "SUM_Ts_Miles",
+            "alias": "Total Miles"
+          },
+          {
+            "show": false,
+            "name": "Ts_Manager_fk",
+            "alias": "Manager fk"
+          },
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "Ts_CTS_ContributorID_fk",
+            "alias": "CTS ContributorID fk"
+          },
+          {
+            "show": false,
+            "name": "htm_DataContributorLink",
+            "alias": "Data Contributor Link"
+          },
+          {
+            "show": true,
+            "name": "htm_TrailManagerLink",
+            "alias": "Trail Manager Link"
+          },
+          {
+            "show": true,
+            "name": "Ts_ContributorName",
+            "alias": "Contributor Name"
+          },
+          {
+            "show": true,
+            "name": "Ts_GovType",
+            "alias": "Gov Type"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseNonMech_Miles",
+            "alias": "Hiker Only (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseNonMoto_Miles",
+            "alias": "Non-motorized (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseMotorized_Miles",
+            "alias": "Motorized (miles)"
+          },
+          {
+            "show": true,
+            "name": "Stat_UseBikeRoute_Miles",
+            "alias": "Bike Route (miles)"
+          },
+          {
+            "show": false,
+            "name": "Shape__Length",
+            "alias": "Shape__Length"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Popups - Trails & Roads",
+      "id": "CTS_TF_0_AllRoutesSegs_fsView_7456",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/219fd69ea8984aa69ef1cfe2ee68c69b/rest/services/CTS_TF_0_AllRoutesSegs_fsView/FeatureServer/0",
+        "fields": [
+          {
+            "show": true,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "Ts_PrimaryName",
+            "alias": "Primary Name"
+          },
+          {
+            "show": true,
+            "name": "Ts_PrimaryUse",
+            "alias": "Primary Use"
+          },
+          {
+            "show": true,
+            "name": "Ts_Surface",
+            "alias": "Surface"
+          },
+          {
+            "show": true,
+            "name": "Ts_Class",
+            "alias": "Class"
+          },
+          {
+            "show": true,
+            "name": "Ts_ClassBreakdown",
+            "alias": "Class Breakdown"
+          },
+          {
+            "show": true,
+            "name": "Ts_WheelchairStrollerFriendly",
+            "alias": "Wheelchair Stroller Friendly"
+          },
+          {
+            "show": true,
+            "name": "Ts_PrimaryPurpose",
+            "alias": "Primary Purpose"
+          },
+          {
+            "show": true,
+            "name": "Ts_NationalDesignation",
+            "alias": "National Designation"
+          },
+          {
+            "show": true,
+            "name": "Ts_AllowBikes",
+            "alias": "Allow Bikes"
+          },
+          {
+            "show": true,
+            "name": "Ts_AllowDogs",
+            "alias": "Allow Dogs"
+          },
+          {
+            "show": true,
+            "name": "Ts_AllowPackAnimals",
+            "alias": "Allow Pack Animals"
+          },
+          {
+            "show": true,
+            "name": "Ts_AllowHorses",
+            "alias": "Allow Horses"
+          },
+          {
+            "show": true,
+            "name": "Ts_AllowOHVs",
+            "alias": "Allow OHVs"
+          },
+          {
+            "show": true,
+            "name": "Ts_AllowOPDMDs",
+            "alias": "Allow OPDMDs"
+          },
+          {
+            "show": true,
+            "name": "Ts_AllowPlatedVehicles",
+            "alias": "Allow Plated Vehicles"
+          },
+          {
+            "show": true,
+            "name": "Ts_AllowSnowmobiles",
+            "alias": "Allow Snowmobiles"
+          },
+          {
+            "show": false,
+            "name": "Ts_PublicDataUseFlag",
+            "alias": "Public Data Use Flag"
+          },
+          {
+            "show": true,
+            "name": "Ts_AccessRestrictions",
+            "alias": "Access Restrictions"
+          },
+          {
+            "show": false,
+            "name": "Ts_Manager_fk",
+            "alias": "Manager fk"
+          },
+          {
+            "show": false,
+            "name": "Ts_JoinField",
+            "alias": "Join Field"
+          },
+          {
+            "show": true,
+            "name": "htm_DataContributorLink",
+            "alias": "Data Contributor Link"
+          },
+          {
+            "show": true,
+            "name": "htm_TrailManagerLink",
+            "alias": "Trail Manager Link"
+          },
+          {
+            "show": true,
+            "name": "Ts_ManagerName",
+            "alias": "Manager Name"
+          },
+          {
+            "show": true,
+            "name": "Ts_ContributorName",
+            "alias": "Data Contributor Name"
+          },
+          {
+            "show": true,
+            "name": "Ts_GovType",
+            "alias": "Gov. Type"
+          },
+          {
+            "show": true,
+            "name": "Ts_UseClassSymbol",
+            "alias": "Use + Class"
+          },
+          {
+            "show": true,
+            "name": "htm_DirectURLLink",
+            "alias": "Direct Link"
+          },
+          {
+            "show": false,
+            "name": "htm_Popup",
+            "alias": "htm Popup"
+          },
+          {
+            "show": false,
+            "name": "htm_MouseOver",
+            "alias": "htm Mouse Over"
+          },
+          {
+            "show": true,
+            "name": "Ts_SurfaceSimple",
+            "alias": "Surface Simple"
+          },
+          {
+            "show": true,
+            "name": "Ts_SymbolDetailed",
+            "alias": "Symbol Detailed"
+          },
+          {
+            "show": true,
+            "name": "Ts_SymbolSimple",
+            "alias": "Symbol Simple"
+          },
+          {
+            "show": true,
+            "name": "Ts_DissolvedRouteID",
+            "alias": "Route ID"
+          },
+          {
+            "show": true,
+            "name": "Ts_DissolvedMiles",
+            "alias": "Route Miles"
+          },
+          {
+            "show": true,
+            "name": "Shape__Length",
+            "alias": "Shape__Length"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Popups - Cycling Routes",
+      "id": "CTS_TF_0_RoutesSimple_flView_7834_9803",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/a9457ae6e8434555b3df3426a1c52c93/rest/services/CTS_TF_0_RoutesSimple_flView/FeatureServer/7",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "Ts_PrimaryName",
+            "alias": "Primary Name"
+          },
+          {
+            "show": true,
+            "name": "Ts_DissolvedMiles",
+            "alias": "Route miles"
+          },
+          {
+            "show": false,
+            "name": "Ts_Manager_fk",
+            "alias": "Manager fk"
+          },
+          {
+            "show": true,
+            "name": "htm_TrailManagerLink",
+            "alias": "Trail Manager Link"
+          },
+          {
+            "show": true,
+            "name": "htm_DataContributorLink",
+            "alias": "Data Contributor Link"
+          },
+          {
+            "show": true,
+            "name": "Ts_ManagerName",
+            "alias": "Manager Name"
+          },
+          {
+            "show": true,
+            "name": "Ts_ContributorName",
+            "alias": "Data Contributor Name"
+          },
+          {
+            "show": true,
+            "name": "Ts_GovType",
+            "alias": "Gov. Type"
+          },
+          {
+            "show": false,
+            "name": "Ts_DissolvedRouteID",
+            "alias": "Dissolved Route ID"
+          },
+          {
+            "show": false,
+            "name": "Shape__Length",
+            "alias": "Shape__Length"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Popups - Segments",
+      "id": "CTS_TF_0_AllRoutesSegs_fsView_8972",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/219fd69ea8984aa69ef1cfe2ee68c69b/rest/services/CTS_TF_0_AllRoutesSegs_fsView/FeatureServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Trailheads",
+      "id": "CTS_TF_5_Trailhead_flView_6092_2389",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/311801cba9ce4eff913e0274fd33a88e/rest/services/CTS_TF_5_Trailhead_flView/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Th_Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "Th_Fee",
+            "alias": "Fee",
+            "show": true
+          },
+          {
+            "name": "Th_Bathroom",
+            "alias": "Bathroom",
+            "show": true
+          },
+          {
+            "name": "Th_Water",
+            "alias": "Water",
+            "show": true
+          },
+          {
+            "name": "Th_DirectURL",
+            "alias": "Direct URL",
+            "show": false
+          },
+          {
+            "name": "htm_TrailManagerLink",
+            "alias": "Manager",
+            "show": true
+          },
+          {
+            "name": "htm_DirectURLLink",
+            "alias": "Direct link",
+            "show": true
+          },
+          {
+            "name": "htm_DataContributorLink",
+            "alias": "Data Source",
+            "show": true
+          },
+          {
+            "name": "htm_GoogleMapsURL",
+            "alias": "Google Directions",
+            "show": true
+          },
+          {
+            "name": "POINT_X",
+            "alias": "Long_WGS84",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_Y",
+            "alias": "Lat_WGS84",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Th_ManagerName",
+            "alias": "Manager Name",
+            "show": false
+          },
+          {
+            "name": "Th_ContributorName",
+            "alias": "Data Source Name",
+            "show": false
+          },
+          {
+            "name": "Th_GovType",
+            "alias": "Gov. Type",
+            "show": false
+          },
+          {
+            "name": "Th_Type",
+            "alias": "TH Type",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Trailheads & Access Points",
+      "id": "CTS_TF_5_Trailhead_flView_6092",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/311801cba9ce4eff913e0274fd33a88e/rest/services/CTS_TF_5_Trailhead_flView/FeatureServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "Th_Name",
+            "alias": "Name"
+          },
+          {
+            "show": true,
+            "name": "Th_Fee",
+            "alias": "Fee"
+          },
+          {
+            "show": true,
+            "name": "Th_Bathroom",
+            "alias": "Bathroom"
+          },
+          {
+            "show": true,
+            "name": "Th_Water",
+            "alias": "Water"
+          },
+          {
+            "show": false,
+            "name": "Th_DirectURL",
+            "alias": "Direct URL"
+          },
+          {
+            "show": true,
+            "name": "htm_TrailManagerLink",
+            "alias": "Manager"
+          },
+          {
+            "show": true,
+            "name": "htm_DirectURLLink",
+            "alias": "Direct link"
+          },
+          {
+            "show": true,
+            "name": "htm_DataContributorLink",
+            "alias": "Data Source"
+          },
+          {
+            "show": true,
+            "name": "htm_GoogleMapsURL",
+            "alias": "Google Directions"
+          },
+          {
+            "show": true,
+            "name": "POINT_X",
+            "alias": "Long_WGS84"
+          },
+          {
+            "show": true,
+            "name": "POINT_Y",
+            "alias": "Lat_WGS84"
+          },
+          {
+            "show": true,
+            "name": "Th_ManagerName",
+            "alias": "Manager Name"
+          },
+          {
+            "show": true,
+            "name": "Th_ContributorName",
+            "alias": "Data Source Name"
+          },
+          {
+            "show": true,
+            "name": "Th_GovType",
+            "alias": "Gov. Type"
+          },
+          {
+            "show": true,
+            "name": "Th_Type",
+            "alias": "TH Type"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Segment Centerline",
+      "id": "CTS_TF_0_RoutesSimple_flView_411",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/a9457ae6e8434555b3df3426a1c52c93/rest/services/CTS_TF_0_RoutesSimple_flView/FeatureServer/3"
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Recreational Route",
+      "id": "CTS_TF_0_RoutesSimple_flView_5991",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/a9457ae6e8434555b3df3426a1c52c93/rest/services/CTS_TF_0_RoutesSimple_flView/FeatureServer/5"
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "On-street Cycling Route",
+      "id": "CTS_TF_0_RoutesSimple_flView_7834",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/a9457ae6e8434555b3df3426a1c52c93/rest/services/CTS_TF_0_RoutesSimple_flView/FeatureServer/7",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Ts_PrimaryName",
+            "alias": "Primary Name",
+            "show": true
+          },
+          {
+            "name": "Ts_DissolvedMiles",
+            "alias": "Route miles",
+            "show": true,
+            "format": {
+              "places": 1,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Ts_Manager_fk",
+            "alias": "Manager fk",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "htm_TrailManagerLink",
+            "alias": "Trail Manager Link",
+            "show": true
+          },
+          {
+            "name": "htm_DataContributorLink",
+            "alias": "Data Contributor Link",
+            "show": true
+          },
+          {
+            "name": "Ts_ManagerName",
+            "alias": "Manager Name",
+            "show": false
+          },
+          {
+            "name": "Ts_ContributorName",
+            "alias": "Data Contributor Name",
+            "show": false
+          },
+          {
+            "name": "Ts_GovType",
+            "alias": "Gov. Type",
+            "show": false
+          },
+          {
+            "name": "Ts_DissolvedRouteID",
+            "alias": "Dissolved Route ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Trailheads & Access Points Results",
+      "id": "CTS_TF_5_Trailhead_flView_6092_2400",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/311801cba9ce4eff913e0274fd33a88e/rest/services/CTS_TF_5_Trailhead_flView/FeatureServer/0",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Th_Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "htm_GoogleMapsURL",
+            "alias": "Google Directions",
+            "show": true
+          },
+          {
+            "name": "Th_Fee",
+            "alias": "Fee",
+            "show": true
+          },
+          {
+            "name": "Th_Bathroom",
+            "alias": "Bathroom",
+            "show": true
+          },
+          {
+            "name": "Th_Water",
+            "alias": "Water",
+            "show": true
+          },
+          {
+            "name": "Th_DirectURL",
+            "alias": "Direct URL",
+            "show": false
+          },
+          {
+            "name": "htm_TrailManagerLink",
+            "alias": "Manager",
+            "show": true
+          },
+          {
+            "name": "htm_DirectURLLink",
+            "alias": "Direct link",
+            "show": true
+          },
+          {
+            "name": "htm_DataContributorLink",
+            "alias": "Data Source",
+            "show": true
+          },
+          {
+            "name": "POINT_X",
+            "alias": "Long_WGS84",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "POINT_Y",
+            "alias": "Lat_WGS84",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Th_ManagerName",
+            "alias": "Manager Name",
+            "show": false
+          },
+          {
+            "name": "Th_ContributorName",
+            "alias": "Data Source Name",
+            "show": false
+          },
+          {
+            "name": "Th_GovType",
+            "alias": "Gov. Type",
+            "show": false
+          },
+          {
+            "name": "Th_Type",
+            "alias": "TH Type",
+            "show": false
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Non-mechanized Results",
+      "id": "CTS_TF_1_Nonmechanized_flView_6069",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/92145c99bc294ef4b42d98e05ca9744b/rest/services/CTS_TF_1_Nonmechanized_flView/FeatureServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Non-motorized Results",
+      "id": "CTS_TF_2_Nonmotorized_flView_8627",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/7238550690534757a5061489987b9c5a/rest/services/CTS_TF_2_Nonmotorized_flView/FeatureServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Motorized Results",
+      "id": "CTS_TF_3_Motorized_flView_9949",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/455668977d114e27a96537dfa53dd3e8/rest/services/CTS_TF_3_Motorized_flView/FeatureServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Detailed - Non-mechanized Routes",
+      "id": "CTS_TF_1_Nonmechanized_flView_5208",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/92145c99bc294ef4b42d98e05ca9744b/rest/services/CTS_TF_1_Nonmechanized_flView/FeatureServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Detailed - Non-mechanized Segments",
+      "id": "CTS_TF_1_Nonmechanized_flView_2033",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/92145c99bc294ef4b42d98e05ca9744b/rest/services/CTS_TF_1_Nonmechanized_flView/FeatureServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Detailed - Non-motorized Routes",
+      "id": "CTS_TF_2_Nonmotorized_flView_7144",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/7238550690534757a5061489987b9c5a/rest/services/CTS_TF_2_Nonmotorized_flView/FeatureServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Detailed - Non-motorized Segments",
+      "id": "CTS_TF_2_Nonmotorized_flView_5484",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/7238550690534757a5061489987b9c5a/rest/services/CTS_TF_2_Nonmotorized_flView/FeatureServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Detailed - Motorized Routes",
+      "id": "CTS_TF_3_Motorized_flView_2045",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/455668977d114e27a96537dfa53dd3e8/rest/services/CTS_TF_3_Motorized_flView/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true
+          },
+          {
+            "name": "Ts_PrimaryName",
+            "alias": "Primary Name",
+            "show": false
+          },
+          {
+            "name": "Ts_Surface",
+            "alias": "Surface",
+            "show": false
+          },
+          {
+            "name": "Ts_PrimaryUse",
+            "alias": "Primary Use",
+            "show": false
+          },
+          {
+            "name": "Ts_Class",
+            "alias": "Class",
+            "show": false
+          },
+          {
+            "name": "Ts_ClassBreakdown",
+            "alias": "Class Breakdown",
+            "show": false
+          },
+          {
+            "name": "Ts_WheelchairStrollerFriendly",
+            "alias": "Wheelchair Stroller Friendly",
+            "show": false
+          },
+          {
+            "name": "Ts_PrimaryPurpose",
+            "alias": "Primary Purpose",
+            "show": false
+          },
+          {
+            "name": "Ts_NationalDesignation",
+            "alias": "National Designation",
+            "show": false
+          },
+          {
+            "name": "Ts_AllowBikes",
+            "alias": "Allow Bikes",
+            "show": false
+          },
+          {
+            "name": "Ts_AllowDogs",
+            "alias": "Allow Dogs",
+            "show": false
+          },
+          {
+            "name": "Ts_AllowPackAnimals",
+            "alias": "Allow Pack Animals",
+            "show": false
+          },
+          {
+            "name": "Ts_AllowHorses",
+            "alias": "Allow Horses",
+            "show": false
+          },
+          {
+            "name": "Ts_AllowOHVs",
+            "alias": "Allow OHVs",
+            "show": false
+          },
+          {
+            "name": "Ts_AllowOPDMDs",
+            "alias": "Allow OPDMDs",
+            "show": false
+          },
+          {
+            "name": "Ts_AllowPlatedVehicles",
+            "alias": "Allow Plated Vehicles",
+            "show": false
+          },
+          {
+            "name": "Ts_AllowSnowmobiles",
+            "alias": "Allow Snowmobiles",
+            "show": false
+          },
+          {
+            "name": "Ts_PublicDataUseFlag",
+            "alias": "Public Data Use Flag",
+            "show": false
+          },
+          {
+            "name": "Ts_AccessRestrictions",
+            "alias": "Access Restrictions",
+            "show": false
+          },
+          {
+            "name": "Ts_Manager_fk",
+            "alias": "Manager fk",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Ts_JoinField",
+            "alias": "Join Field",
+            "show": false
+          },
+          {
+            "name": "htm_DataContributorLink",
+            "alias": "Data Contributor Link",
+            "show": false
+          },
+          {
+            "name": "htm_TrailManagerLink",
+            "alias": "Trail Manager Link",
+            "show": false
+          },
+          {
+            "name": "Ts_ManagerName",
+            "alias": "Manager Name",
+            "show": false
+          },
+          {
+            "name": "Ts_ContributorName",
+            "alias": "Data Contributor Name",
+            "show": false
+          },
+          {
+            "name": "Ts_GovType",
+            "alias": "Gov. Type",
+            "show": false
+          },
+          {
+            "name": "Ts_UseClassSymbol",
+            "alias": "Use + Class",
+            "show": false
+          },
+          {
+            "name": "htm_DirectURLLink",
+            "alias": "Direct Link",
+            "show": false
+          },
+          {
+            "name": "htm_Popup",
+            "alias": "htm Popup",
+            "show": false
+          },
+          {
+            "name": "htm_MouseOver",
+            "alias": "htm Mouse Over",
+            "show": false
+          },
+          {
+            "name": "Ts_SurfaceSimple",
+            "alias": "Surface Simple",
+            "show": false
+          },
+          {
+            "name": "Ts_SymbolDetailed",
+            "alias": "Symbol Detailed",
+            "show": false
+          },
+          {
+            "name": "Ts_SymbolSimple",
+            "alias": "Symbol Simple",
+            "show": false
+          },
+          {
+            "name": "Ts_DissolvedRouteID",
+            "alias": "Route ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Ts_DissolvedMiles",
+            "alias": "Route Miles",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Detailed - Motorized Segments",
+      "id": "CTS_TF_3_Motorized_flView_3650",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/455668977d114e27a96537dfa53dd3e8/rest/services/CTS_TF_3_Motorized_flView/FeatureServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Detailed - On-street Cycling Route",
+      "id": "CTS_TF_4_BikeLane_flView_4938",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/f78f89fe56e94d1590a7220d3c808d37/rest/services/CTS_TF_4_BikeLane_flView/FeatureServer/1",
+        "fields": [
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true
+          },
+          {
+            "name": "Ts_PrimaryName",
+            "alias": "Primary Name",
+            "show": false
+          },
+          {
+            "name": "Ts_Manager_fk",
+            "alias": "Manager fk",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "htm_DataContributorLink",
+            "alias": "Data Contributor Link",
+            "show": false
+          },
+          {
+            "name": "htm_TrailManagerLink",
+            "alias": "Trail Manager Link",
+            "show": false
+          },
+          {
+            "name": "Ts_ManagerName",
+            "alias": "Manager Name",
+            "show": false
+          },
+          {
+            "name": "Ts_ContributorName",
+            "alias": "Data Contributor Name",
+            "show": false
+          },
+          {
+            "name": "Ts_GovType",
+            "alias": "Gov. Type",
+            "show": false
+          },
+          {
+            "name": "Ts_DissolvedRouteID",
+            "alias": "Dissolved Route ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Ts_DissolvedMiles",
+            "alias": "Route miles",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Popups - COMaP Land Manager",
+      "id": "TP_COMaP_Detailed_InternalFS_3871",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/ae88f4cab15d452892080335df4899b3/rest/services/TP_COMaP_Detailed_InternalFS/FeatureServer/0",
+        "fields": [
+          {
+            "show": false,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "NAME",
+            "alias": "NAME"
+          },
+          {
+            "show": true,
+            "name": "OWNER",
+            "alias": "OWNER"
+          },
+          {
+            "show": true,
+            "name": "MANAGER",
+            "alias": "MANAGER"
+          },
+          {
+            "show": true,
+            "name": "OWNER_DETAIL",
+            "alias": "OWNER_DETAIL"
+          },
+          {
+            "show": true,
+            "name": "MANAGER_DETAIL",
+            "alias": "MANAGER_DETAIL"
+          },
+          {
+            "show": true,
+            "name": "MGMT_CODE",
+            "alias": "MGMT_CODE"
+          },
+          {
+            "show": true,
+            "name": "MGMT_DESCRIPTION",
+            "alias": "MGMT_DESCRIPTION"
+          },
+          {
+            "show": true,
+            "name": "PUBLIC_ACCESS",
+            "alias": "PUBLIC_ACCESS"
+          },
+          {
+            "show": true,
+            "name": "PROTECTION_MECHANISM",
+            "alias": "PROTECTION_MECHANISM"
+          },
+          {
+            "show": true,
+            "name": "PROTECTION_TERM",
+            "alias": "PROTECTION_TERM"
+          },
+          {
+            "show": false,
+            "name": "EASEMENT_HOLDER",
+            "alias": "EASEMENT_HOLDER"
+          },
+          {
+            "show": false,
+            "name": "DATE_ESTABLISHED",
+            "alias": "DATE_ESTABLISHED"
+          },
+          {
+            "show": false,
+            "name": "GOCO_FUNDING",
+            "alias": "GOCO_FUNDING"
+          },
+          {
+            "show": false,
+            "name": "CONSERV_PURPOSE",
+            "alias": "CONSERV_PURPOSE"
+          },
+          {
+            "show": false,
+            "name": "SOURCE_DATA",
+            "alias": "SOURCE_DATA"
+          },
+          {
+            "show": false,
+            "name": "SOURCE_DATE",
+            "alias": "SOURCE_DATE"
+          },
+          {
+            "show": false,
+            "name": "SOURCE_SCALE",
+            "alias": "SOURCE_SCALE"
+          },
+          {
+            "show": false,
+            "name": "RECEPTION_NO",
+            "alias": "RECEPTION_NO"
+          },
+          {
+            "show": false,
+            "name": "GOCO_LOG",
+            "alias": "GOCO_LOG"
+          },
+          {
+            "show": false,
+            "name": "NOTES",
+            "alias": "NOTES"
+          },
+          {
+            "show": true,
+            "name": "ACRES",
+            "alias": "ACRES"
+          },
+          {
+            "show": false,
+            "name": "HOLDER_TYPE",
+            "alias": "HOLDER_TYPE"
+          },
+          {
+            "show": true,
+            "name": "legend",
+            "alias": "legend"
+          },
+          {
+            "show": false,
+            "name": "CTS_MGMT_CODE",
+            "alias": "CTS_MGMT_CODE"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Colorado Boundary",
+      "id": "CTS_TF_6_SummaryStats_5582_0",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/ce5828797dd4437f9d1e05c45d6c6028/rest/services/CTS_TF_6_SummaryStats/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Colorado Summary",
+      "id": "CTS_TF_6_SummaryStats_5582_1",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/ce5828797dd4437f9d1e05c45d6c6028/rest/services/CTS_TF_6_SummaryStats/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "County Summary",
+      "id": "CTS_TF_6_SummaryStats_5582_2",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/ce5828797dd4437f9d1e05c45d6c6028/rest/services/CTS_TF_6_SummaryStats/MapServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Trail Manager Summary",
+      "id": "CTS_TF_6_SummaryStats_5582_3",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/ce5828797dd4437f9d1e05c45d6c6028/rest/services/CTS_TF_6_SummaryStats/MapServer/3"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Non-mechanized Trail",
+      "id": "CTS_TF_1_Nonmechanized_1332_0",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/d61968209a804908b296701e436f3a46/rest/services/CTS_TF_1_Nonmechanized/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Non-mechanized Routes",
+      "id": "CTS_TF_1_Nonmechanized_1332_1",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/d61968209a804908b296701e436f3a46/rest/services/CTS_TF_1_Nonmechanized/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Non-mechanized Segments",
+      "id": "CTS_TF_1_Nonmechanized_1332_2",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/d61968209a804908b296701e436f3a46/rest/services/CTS_TF_1_Nonmechanized/MapServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Non-motorized Trail",
+      "id": "CTS_TF_2_Nonmotorized_4469_0",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/d17dcb82da394ccb9f89162a1a756158/rest/services/CTS_TF_2_Nonmotorized/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Non-motorized Routes",
+      "id": "CTS_TF_2_Nonmotorized_4469_1",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/d17dcb82da394ccb9f89162a1a756158/rest/services/CTS_TF_2_Nonmotorized/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Non-motorized Segments",
+      "id": "CTS_TF_2_Nonmotorized_4469_2",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/d17dcb82da394ccb9f89162a1a756158/rest/services/CTS_TF_2_Nonmotorized/MapServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Motorized Road or Trail",
+      "id": "CTS_TF_3_Motorized_5150_0",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/20c679c0a3294a1ba11325c492e0728e/rest/services/CTS_TF_3_Motorized/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Motorized Routes",
+      "id": "CTS_TF_3_Motorized_5150_1",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/20c679c0a3294a1ba11325c492e0728e/rest/services/CTS_TF_3_Motorized/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Motorized Segments",
+      "id": "CTS_TF_3_Motorized_5150_2",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/20c679c0a3294a1ba11325c492e0728e/rest/services/CTS_TF_3_Motorized/MapServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "On-street Cycling Route",
+      "id": "CTS_TF_4_BikeLane_7009_0",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/1ff03c10366242b0abd4a37ea8037498/rest/services/CTS_TF_4_BikeLane/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "On-street Cycling Route",
+      "id": "CTS_TF_4_BikeLane_7009_1",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/1ff03c10366242b0abd4a37ea8037498/rest/services/CTS_TF_4_BikeLane/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Recreational Route",
+      "id": "CTS_TF_0_RoutesSimple_8667_0",
+      "layer": {
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_0_RoutesSimple/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Recreational Route",
+      "id": "CTS_TF_0_RoutesSimple_8667_1",
+      "layer": {
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_0_RoutesSimple/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Recreational Route",
+      "id": "CTS_TF_0_RoutesSimple_8667_2",
+      "layer": {
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_0_RoutesSimple/MapServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Segment Centerline",
+      "id": "CTS_TF_0_RoutesSimple_8667_3",
+      "layer": {
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_0_RoutesSimple/MapServer/3"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Recreational Route",
+      "id": "CTS_TF_0_RoutesSimple_8667_4",
+      "layer": {
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_0_RoutesSimple/MapServer/4"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Recreational Route",
+      "id": "CTS_TF_0_RoutesSimple_8667_5",
+      "layer": {
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_0_RoutesSimple/MapServer/5"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "On-street Cycling Route",
+      "id": "CTS_TF_0_RoutesSimple_8667_6",
+      "layer": {
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_0_RoutesSimple/MapServer/6"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "On-street Cycling Route",
+      "id": "CTS_TF_0_RoutesSimple_8667_7",
+      "layer": {
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_0_RoutesSimple/MapServer/7"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "ColoradoMask",
+      "id": "TF_ColoradoMaskTile_3282_0",
+      "layer": {
+        "url": "http://services7.arcgis.com/WvgOaBfZeRNlBq3y/arcgis/rest/services/TF_ColoradoMaskTile/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "World Imagery",
+      "id": "World_Imagery_8355_0",
+      "layer": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Low Resolution 15m Imagery",
+      "id": "World_Imagery_8355_1",
+      "layer": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "High Resolution 60cm Imagery",
+      "id": "World_Imagery_8355_2",
+      "layer": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/2"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "High Resolution 30cm Imagery",
+      "id": "World_Imagery_8355_3",
+      "layer": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/3"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Citations",
+      "id": "World_Imagery_8355_4",
+      "layer": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/4"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "NatGeo_World_Map",
+      "id": "NatGeo_World_Map_4381_0",
+      "layer": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "World Street Map",
+      "id": "World_Street_Map_9096_0",
+      "layer": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Citations",
+      "id": "World_Topo_Map_7949_0",
+      "layer": {
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/0"
+      },
+      "show": false,
+      "showAttachments": false
+    }
+  ],
   "table": {
     "pageSizeOptions": [
       25,
