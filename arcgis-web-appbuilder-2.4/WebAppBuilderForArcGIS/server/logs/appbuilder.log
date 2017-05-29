@@ -1602,3 +1602,28 @@
 [2017-05-28 14:04:28.271] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
 [2017-05-28 14:04:30.292] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
 [2017-05-28 14:04:33.267] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-28 14:16:15.380] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-05-28 14:16:17.861] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-05-28 14:16:18.393] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-05-28 14:16:19.028] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-28 14:16:19.245] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-28 14:16:34.713] [INFO] server - Set isXT = true; /webappbuilder/apps/5/env.js
+[2017-05-28 14:16:38.822] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-28 15:03:47.549] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-28 15:03:49.845] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-28 19:35:05.107] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-28 19:35:07.760] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-28 20:02:01.132] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-28 20:07:16.301] [INFO] server - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
+[2017-05-28 20:07:16.329] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-28 20:07:30.563] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-28 20:15:22.557] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-28 20:31:16.840] [INFO] app - remove widget icon icon_Print - .png from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\4\
+[2017-05-28 20:31:16.844] [INFO] app - remove widget config config_Print - .json from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\4\
+[2017-05-28 20:31:32.514] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-28 20:32:07.661] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\PrintPlus
+[2017-05-28 20:32:22.970] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets\Print
+[2017-05-28 20:34:14.402] [INFO] app - remove widget PrintPlus from app 4
+[2017-05-28 20:38:02.250] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-28 20:41:39.793] [INFO] app - remove widget config config_Print 2.json from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\4\
+[2017-05-28 20:41:48.993] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js

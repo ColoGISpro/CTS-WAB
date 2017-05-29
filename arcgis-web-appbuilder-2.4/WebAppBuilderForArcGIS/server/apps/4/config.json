@@ -18,17 +18,12 @@
   "authorizedCrossOriginDomains": [
     "cts.state.co.us"
   ],
-  "title": "Colorado TrailFinder",
-  "subtitle": "<div class=\"attribute-custom-style\"><font size=\"1\">desktop</font></div>",
+  "title": "COTREX",
+  "subtitle": "<div class=\"attribute-custom-style\"><b>Co</b><font size=\"2\">lorado</font> <b>Tr</b><font size=\"2\">ail </font><b>Ex</b><font size=\"2\">plorer - </font><font size=\"1\">desktop map</font></div>",
   "keepAppState": true,
   "logo": "images/logo.png",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
-  "links": [
-    {
-      "label": "CTS Home",
-      "url": "http://cpw.state.co.us/cts"
-    }
-  ],
+  "links": [],
   "widgetOnScreen": {
     "widgets": [
       {
@@ -315,10 +310,10 @@
     "itemId": "a8aed93b0e9e4999869ab19a7437c989",
     "mapOptions": {
       "extent": {
-        "xmin": -13638455.728190878,
-        "ymin": 3658572.184023072,
-        "xmax": -9920558.672400894,
-        "ymax": 5735213.368474188,
+        "xmin": -12675960.668024193,
+        "ymin": 4205861.306544788,
+        "xmax": -10817012.140129201,
+        "ymax": 5244181.898770347,
         "spatialReference": {
           "wkid": 102100
         }
@@ -448,12 +443,12 @@
         "label": "Base Layers"
       },
       {
-        "name": "About",
+        "name": "Print",
         "version": "2.4",
-        "uri": "widgets/About/Widget",
-        "config": "configs/About/config_About.json",
+        "uri": "widgets/Print/Widget",
+        "config": "configs/Print/config_Print.json",
         "index": 6,
-        "id": "widgets_About_Widget_142"
+        "id": "widgets_Print_Widget_145"
       },
       {
         "name": "Share",
@@ -464,13 +459,21 @@
         "id": "widgets_SimpleShare_Widget_140"
       },
       {
+        "name": "About",
+        "version": "2.4",
+        "uri": "widgets/About/Widget",
+        "config": "configs/About/config_About.json",
+        "index": 8,
+        "id": "widgets_About_Widget_142"
+      },
+      {
         "name": "UrlButton",
         "label": "Switch to mobile version",
         "version": "2.3",
         "icon": "configs\\UrlButton\\icon_Switch to mobile version.png",
         "uri": "widgets/UrlButton/Widget",
         "config": "configs/UrlButton/config_Switch to mobile version.json",
-        "index": 8,
+        "index": 9,
         "id": "widgets_UrlButton_Widget_141",
         "position": {
           "relativeTo": "map"
