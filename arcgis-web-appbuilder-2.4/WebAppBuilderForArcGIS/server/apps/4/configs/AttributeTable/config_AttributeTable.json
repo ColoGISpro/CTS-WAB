@@ -1,7 +1,7 @@
 {
   "layerInfos": [
     {
-      "name": "Featured Content",
+      "name": "CTS Totals",
       "id": "CTS_TF_6_SummaryX_flView_9316_5125",
       "layer": {
         "url": "http://utility.arcgis.com/usrsvcs/servers/83af3d294a7846459298df5379f3f0e4/rest/services/CTS_TF_6_SummaryX_flView/FeatureServer/0",
@@ -198,7 +198,7 @@
           }
         ]
       },
-      "show": true,
+      "show": false,
       "showAttachments": false
     },
     {
@@ -279,7 +279,7 @@
           }
         ]
       },
-      "show": true,
+      "show": false,
       "showAttachments": false
     },
     {
@@ -897,84 +897,92 @@
         "url": "http://utility.arcgis.com/usrsvcs/servers/311801cba9ce4eff913e0274fd33a88e/rest/services/CTS_TF_5_Trailhead_flView/FeatureServer/0",
         "fields": [
           {
-            "show": false,
             "name": "OBJECTID",
-            "alias": "OBJECTID"
+            "alias": "OBJECTID",
+            "show": false
           },
           {
-            "show": true,
             "name": "Th_Name",
-            "alias": "Name"
+            "alias": "Name",
+            "show": true
           },
           {
-            "show": true,
             "name": "Th_Fee",
-            "alias": "Fee"
+            "alias": "Fee",
+            "show": true
           },
           {
-            "show": true,
             "name": "Th_Bathroom",
-            "alias": "Bathroom"
+            "alias": "Bathroom",
+            "show": true
           },
           {
-            "show": true,
             "name": "Th_Water",
-            "alias": "Water"
+            "alias": "Water",
+            "show": true
           },
           {
-            "show": false,
             "name": "Th_DirectURL",
-            "alias": "Direct URL"
+            "alias": "Direct URL",
+            "show": false
           },
           {
-            "show": true,
             "name": "htm_TrailManagerLink",
-            "alias": "Manager"
+            "alias": "Manager",
+            "show": true
           },
           {
-            "show": true,
             "name": "htm_DirectURLLink",
-            "alias": "Direct link"
+            "alias": "Direct link",
+            "show": true
           },
           {
-            "show": true,
             "name": "htm_DataContributorLink",
-            "alias": "Data Source"
+            "alias": "Data Source",
+            "show": true
           },
           {
-            "show": true,
             "name": "htm_GoogleMapsURL",
-            "alias": "Google Directions"
+            "alias": "Google Directions",
+            "show": true
           },
           {
-            "show": true,
             "name": "POINT_X",
-            "alias": "Long_WGS84"
+            "alias": "Long_WGS84",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
           },
           {
-            "show": true,
             "name": "POINT_Y",
-            "alias": "Lat_WGS84"
+            "alias": "Lat_WGS84",
+            "show": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
           },
           {
-            "show": true,
             "name": "Th_ManagerName",
-            "alias": "Manager Name"
+            "alias": "Manager Name",
+            "show": true
           },
           {
-            "show": true,
             "name": "Th_ContributorName",
-            "alias": "Data Source Name"
+            "alias": "Data Source Name",
+            "show": true
           },
           {
-            "show": true,
             "name": "Th_GovType",
-            "alias": "Gov. Type"
+            "alias": "Gov. Type",
+            "show": true
           },
           {
-            "show": true,
             "name": "Th_Type",
-            "alias": "TH Type"
+            "alias": "TH Type",
+            "show": true
           }
         ]
       },
@@ -987,7 +995,7 @@
       "layer": {
         "url": "http://utility.arcgis.com/usrsvcs/servers/a9457ae6e8434555b3df3426a1c52c93/rest/services/CTS_TF_0_RoutesSimple_flView/FeatureServer/3"
       },
-      "show": true,
+      "show": false,
       "showAttachments": false
     },
     {
@@ -996,7 +1004,7 @@
       "layer": {
         "url": "http://utility.arcgis.com/usrsvcs/servers/a9457ae6e8434555b3df3426a1c52c93/rest/services/CTS_TF_0_RoutesSimple_flView/FeatureServer/5"
       },
-      "show": true,
+      "show": false,
       "showAttachments": false
     },
     {
@@ -1077,6 +1085,15 @@
             }
           }
         ]
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "Trail Manager Results",
+      "id": "CTS_TF_7_TrailManager_7773",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/84013302107e460c97beacd383651b4f/rest/services/CTS_TF_7_TrailManager/FeatureServer/0"
       },
       "show": false,
       "showAttachments": false

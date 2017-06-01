@@ -9,25 +9,13 @@
     "DescriptionOrShowItemDetailsOrDownload": false
   },
   "layerOptions": {
-    "CTS_TF_6_Summary_flView_4819_6661": {
-      "display": false
-    },
     "CTS_TF_6_SummaryX_flView_9316_5125": {
       "display": true
-    },
-    "CTS_TF_6_Summary_flView_4819": {
-      "display": false
     },
     "CTS_TF_6_SummaryX_flView_51_7518": {
       "display": false
     },
-    "CTS_TF_6_Summary_flView_6480": {
-      "display": false
-    },
     "CTS_TF_6_SummaryX_flView_4625_6805": {
-      "display": false
-    },
-    "CTS_TF_6_Summary_flView_1315": {
       "display": false
     },
     "CTS_TF_6_SummaryX_flView_8868_1040": {
@@ -55,6 +43,9 @@
       "display": false
     },
     "CTS_TF_0_RoutesSimple_flView_7834": {
+      "display": false
+    },
+    "CTS_TF_7_TrailManager_7773": {
       "display": false
     },
     "CTS_TF_5_Trailhead_flView_6092_2400": {
@@ -106,21 +97,6 @@
       "display": true
     },
     "CTS_TF_6_SummaryX_8684_3": {
-      "display": true
-    },
-    "CTS_TF_6_SummaryStats_5582": {
-      "display": false
-    },
-    "CTS_TF_6_SummaryStats_5582_0": {
-      "display": true
-    },
-    "CTS_TF_6_SummaryStats_5582_1": {
-      "display": true
-    },
-    "CTS_TF_6_SummaryStats_5582_2": {
-      "display": true
-    },
-    "CTS_TF_6_SummaryStats_5582_3": {
       "display": true
     },
     "CTS_TF_1_Nonmechanized_1332": {

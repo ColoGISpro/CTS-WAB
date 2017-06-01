@@ -465,11 +465,12 @@
       },
       {
         "name": "Share",
+        "label": "Share COTREX",
         "version": "2.0.1",
         "uri": "widgets/SimpleShare/Widget",
-        "config": "configs/Share/config_Share.json",
+        "config": "configs/Share/config_Share COTREX.json",
         "index": 7,
-        "id": "widgets_SimpleShare_Widget_140"
+        "id": "widgets_SimpleShare_Widget_1116"
       },
       {
         "name": "About",
