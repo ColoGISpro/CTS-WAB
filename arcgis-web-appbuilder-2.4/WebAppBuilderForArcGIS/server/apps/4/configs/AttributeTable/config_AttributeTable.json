@@ -2,18 +2,9 @@
   "layerInfos": [
     {
       "name": "Featured Content",
-      "id": "CTS_TF_6_Summary_flView_4819_6661",
+      "id": "CTS_TF_6_SummaryX_flView_9316_5125",
       "layer": {
-        "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/0"
-      },
-      "show": false,
-      "showAttachments": false
-    },
-    {
-      "name": "Colorado Summary",
-      "id": "CTS_TF_6_Summary_flView_4819",
-      "layer": {
-        "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/0",
+        "url": "http://utility.arcgis.com/usrsvcs/servers/83af3d294a7846459298df5379f3f0e4/rest/services/CTS_TF_6_SummaryX_flView/FeatureServer/0",
         "fields": [
           {
             "show": true,
@@ -22,13 +13,13 @@
           },
           {
             "show": true,
-            "name": "Stat_FIPSCODE",
-            "alias": "Stat_FIPSCODE"
-          },
-          {
-            "show": true,
             "name": "Stat_AreaName",
             "alias": "State Name"
+          },
+          {
+            "show": false,
+            "name": "Stat_FIPSCODE",
+            "alias": "Stat_FIPSCODE"
           },
           {
             "show": true,
@@ -106,10 +97,19 @@
       "showAttachments": false
     },
     {
-      "name": "County Summary",
-      "id": "CTS_TF_6_Summary_flView_6480",
+      "name": "Colorado Summary",
+      "id": "CTS_TF_6_SummaryX_flView_51_7518",
       "layer": {
-        "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/1",
+        "url": "http://utility.arcgis.com/usrsvcs/servers/83af3d294a7846459298df5379f3f0e4/rest/services/CTS_TF_6_SummaryX_flView/FeatureServer/1"
+      },
+      "show": false,
+      "showAttachments": false
+    },
+    {
+      "name": "County Summary",
+      "id": "CTS_TF_6_SummaryX_flView_4625_6805",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/83af3d294a7846459298df5379f3f0e4/rest/services/CTS_TF_6_SummaryX_flView/FeatureServer/2",
         "fields": [
           {
             "show": true,
@@ -118,13 +118,13 @@
           },
           {
             "show": true,
-            "name": "Stat_FIPSCODE",
-            "alias": "FIPSCODE"
-          },
-          {
-            "show": true,
             "name": "Stat_AreaName",
             "alias": "County Name"
+          },
+          {
+            "show": false,
+            "name": "Stat_FIPSCODE",
+            "alias": "Stat_FIPSCODE"
           },
           {
             "show": true,
@@ -187,12 +187,12 @@
             "alias": "htm_MouseOver"
           },
           {
-            "show": false,
+            "show": true,
             "name": "Shape__Area",
             "alias": "Shape__Area"
           },
           {
-            "show": false,
+            "show": true,
             "name": "Shape__Length",
             "alias": "Shape__Length"
           }
@@ -203,32 +203,22 @@
     },
     {
       "name": "Trail Manager Summary",
-      "id": "CTS_TF_6_Summary_flView_1315",
+      "id": "CTS_TF_6_SummaryX_flView_8868_1040",
       "layer": {
-        "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/2",
+        "url": "http://utility.arcgis.com/usrsvcs/servers/83af3d294a7846459298df5379f3f0e4/rest/services/CTS_TF_6_SummaryX_flView/FeatureServer/3",
         "fields": [
+          {
+            "show": true,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
           {
             "show": true,
             "name": "Ts_ManagerName",
             "alias": "Manager Name"
           },
           {
-            "show": true,
-            "name": "SUM_Ts_Miles",
-            "alias": "Total Miles"
-          },
-          {
             "show": false,
-            "name": "Ts_Manager_fk",
-            "alias": "Manager fk"
-          },
-          {
-            "show": false,
-            "name": "OBJECTID",
-            "alias": "OBJECTID"
-          },
-          {
-            "show": true,
             "name": "Ts_CTS_ContributorID_fk",
             "alias": "CTS ContributorID fk"
           },
@@ -239,11 +229,16 @@
           },
           {
             "show": true,
+            "name": "Ts_Manager_fk",
+            "alias": "Manager fk"
+          },
+          {
+            "show": true,
             "name": "htm_TrailManagerLink",
             "alias": "Trail Manager Link"
           },
           {
-            "show": true,
+            "show": false,
             "name": "Ts_ContributorName",
             "alias": "Contributor Name"
           },
@@ -251,6 +246,11 @@
             "show": true,
             "name": "Ts_GovType",
             "alias": "Gov Type"
+          },
+          {
+            "show": true,
+            "name": "SUM_Ts_Miles",
+            "alias": "Total Miles"
           },
           {
             "show": true,
@@ -480,9 +480,96 @@
         "url": "http://utility.arcgis.com/usrsvcs/servers/a9457ae6e8434555b3df3426a1c52c93/rest/services/CTS_TF_0_RoutesSimple_flView/FeatureServer/7",
         "fields": [
           {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": false
+          },
+          {
+            "name": "Ts_PrimaryName",
+            "alias": "Primary Name",
+            "show": true
+          },
+          {
+            "name": "Ts_DissolvedMiles",
+            "alias": "Route miles",
+            "show": true,
+            "format": {
+              "places": 1,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Ts_Manager_fk",
+            "alias": "Manager fk",
             "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "htm_TrailManagerLink",
+            "alias": "Trail Manager Link",
+            "show": true
+          },
+          {
+            "name": "htm_DataContributorLink",
+            "alias": "Data Contributor Link",
+            "show": true
+          },
+          {
+            "name": "Ts_ManagerName",
+            "alias": "Manager Name",
+            "show": true
+          },
+          {
+            "name": "Ts_ContributorName",
+            "alias": "Data Contributor Name",
+            "show": true
+          },
+          {
+            "name": "Ts_GovType",
+            "alias": "Gov. Type",
+            "show": true
+          },
+          {
+            "name": "Ts_DissolvedRouteID",
+            "alias": "Dissolved Route ID",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false
+    },
+    {
+      "name": "Popups - Segments",
+      "id": "CTS_TF_0_AllRoutesSegs_fsView_8972",
+      "layer": {
+        "url": "http://utility.arcgis.com/usrsvcs/servers/219fd69ea8984aa69ef1cfe2ee68c69b/rest/services/CTS_TF_0_AllRoutesSegs_fsView/FeatureServer/1",
+        "fields": [
+          {
+            "show": true,
             "name": "OBJECTID",
             "alias": "OBJECTID"
+          },
+          {
+            "show": false,
+            "name": "FID_TrailOrRoad_By_AllTier2_Rou",
+            "alias": "FID_TrailOrRoad_By_AllTier2_Routes_utm"
           },
           {
             "show": true,
@@ -491,8 +578,88 @@
           },
           {
             "show": true,
-            "name": "Ts_DissolvedMiles",
-            "alias": "Route miles"
+            "name": "Ts_Surface",
+            "alias": "Surface"
+          },
+          {
+            "show": true,
+            "name": "Ts_PrimaryUse",
+            "alias": "Primary Use"
+          },
+          {
+            "show": false,
+            "name": "Ts_Class",
+            "alias": "Class"
+          },
+          {
+            "show": true,
+            "name": "Ts_ClassBreakdown",
+            "alias": "Class Breakdown"
+          },
+          {
+            "show": false,
+            "name": "Ts_WheelchairStrollerFriendly",
+            "alias": "Wheelchair Stroller Friendly"
+          },
+          {
+            "show": false,
+            "name": "Ts_PrimaryPurpose",
+            "alias": "Primary Purpose"
+          },
+          {
+            "show": false,
+            "name": "Ts_NationalDesignation",
+            "alias": "National Designation"
+          },
+          {
+            "show": false,
+            "name": "Ts_AllowBikes",
+            "alias": "Allow Bikes"
+          },
+          {
+            "show": false,
+            "name": "Ts_AllowDogs",
+            "alias": "Allow Dogs"
+          },
+          {
+            "show": false,
+            "name": "Ts_AllowPackAnimals",
+            "alias": "Allow Pack Animals"
+          },
+          {
+            "show": false,
+            "name": "Ts_AllowHorses",
+            "alias": "Allow Horses"
+          },
+          {
+            "show": false,
+            "name": "Ts_AllowOHVs",
+            "alias": "Allow OHVs"
+          },
+          {
+            "show": false,
+            "name": "Ts_AllowOPDMDs",
+            "alias": "Allow OPDMDs"
+          },
+          {
+            "show": false,
+            "name": "Ts_AllowPlatedVehicles",
+            "alias": "Allow Plated Vehicles"
+          },
+          {
+            "show": false,
+            "name": "Ts_AllowSnowmobiles",
+            "alias": "Allow Snowmobiles"
+          },
+          {
+            "show": false,
+            "name": "Ts_PublicDataUseFlag",
+            "alias": "Public Data Use Flag"
+          },
+          {
+            "show": false,
+            "name": "Ts_AccessRestrictions",
+            "alias": "Access Restrictions"
           },
           {
             "show": false,
@@ -500,34 +667,119 @@
             "alias": "Manager fk"
           },
           {
-            "show": true,
-            "name": "htm_TrailManagerLink",
-            "alias": "Trail Manager Link"
+            "show": false,
+            "name": "Ts_JoinField",
+            "alias": "Join Field"
           },
           {
-            "show": true,
+            "show": false,
             "name": "htm_DataContributorLink",
             "alias": "Data Contributor Link"
           },
           {
-            "show": true,
+            "show": false,
+            "name": "htm_TrailManagerLink",
+            "alias": "Trail Manager Link"
+          },
+          {
+            "show": false,
             "name": "Ts_ManagerName",
             "alias": "Manager Name"
           },
           {
-            "show": true,
+            "show": false,
             "name": "Ts_ContributorName",
             "alias": "Data Contributor Name"
           },
           {
-            "show": true,
+            "show": false,
             "name": "Ts_GovType",
             "alias": "Gov. Type"
           },
           {
             "show": false,
+            "name": "Ts_UseClassSymbol",
+            "alias": "Use + Class"
+          },
+          {
+            "show": false,
+            "name": "htm_DirectURLLink",
+            "alias": "Direct Link"
+          },
+          {
+            "show": false,
+            "name": "htm_Popup",
+            "alias": "htm Popup"
+          },
+          {
+            "show": false,
+            "name": "htm_MouseOver",
+            "alias": "htm Mouse Over"
+          },
+          {
+            "show": false,
+            "name": "Ts_SurfaceSimple",
+            "alias": "Surface Simple"
+          },
+          {
+            "show": false,
+            "name": "Ts_SymbolDetailed",
+            "alias": "Symbol Detailed"
+          },
+          {
+            "show": false,
+            "name": "Ts_SymbolSimple",
+            "alias": "Symbol Simple"
+          },
+          {
+            "show": true,
             "name": "Ts_DissolvedRouteID",
-            "alias": "Dissolved Route ID"
+            "alias": "Route ID"
+          },
+          {
+            "show": true,
+            "name": "Ts_DissolvedMiles",
+            "alias": "Route Miles"
+          },
+          {
+            "show": true,
+            "name": "Ts_Seg2DMiles",
+            "alias": "Ts_Seg2DMiles"
+          },
+          {
+            "show": true,
+            "name": "Z_Min",
+            "alias": "Z_Min"
+          },
+          {
+            "show": true,
+            "name": "Z_Max",
+            "alias": "Z_Max"
+          },
+          {
+            "show": true,
+            "name": "Z_Mean",
+            "alias": "Z_Mean"
+          },
+          {
+            "show": true,
+            "name": "SLength",
+            "alias": "SLength"
+          },
+          {
+            "show": true,
+            "name": "Min_Slope",
+            "alias": "Min_Slope"
+          },
+          {
+            "show": true,
+            "name": "Max_Slope",
+            "alias": "Max_Slope"
+          },
+          {
+            "show": true,
+            "name": "Avg_Slope",
+            "alias": "Avg_Slope"
           },
           {
             "show": false,
@@ -540,17 +792,8 @@
       "showAttachments": false
     },
     {
-      "name": "Popups - Segments",
-      "id": "CTS_TF_0_AllRoutesSegs_fsView_8972",
-      "layer": {
-        "url": "http://utility.arcgis.com/usrsvcs/servers/219fd69ea8984aa69ef1cfe2ee68c69b/rest/services/CTS_TF_0_AllRoutesSegs_fsView/FeatureServer/1"
-      },
-      "show": false,
-      "showAttachments": false
-    },
-    {
       "name": "Trailheads",
-      "id": "CTS_TF_5_Trailhead_flView_6092_2389",
+      "id": "CTS_TF_5_Trailhead_flView_6092_4014",
       "layer": {
         "url": "http://utility.arcgis.com/usrsvcs/servers/311801cba9ce4eff913e0274fd33a88e/rest/services/CTS_TF_5_Trailhead_flView/FeatureServer/0",
         "fields": [
@@ -1305,129 +1548,141 @@
         "url": "http://utility.arcgis.com/usrsvcs/servers/ae88f4cab15d452892080335df4899b3/rest/services/TP_COMaP_Detailed_InternalFS/FeatureServer/0",
         "fields": [
           {
-            "show": false,
             "name": "OBJECTID",
-            "alias": "OBJECTID"
+            "alias": "OBJECTID",
+            "show": false
           },
           {
-            "show": true,
             "name": "NAME",
-            "alias": "NAME"
+            "alias": "NAME",
+            "show": true
           },
           {
-            "show": true,
             "name": "OWNER",
-            "alias": "OWNER"
+            "alias": "OWNER",
+            "show": true
           },
           {
-            "show": true,
             "name": "MANAGER",
-            "alias": "MANAGER"
+            "alias": "MANAGER",
+            "show": true
           },
           {
-            "show": true,
             "name": "OWNER_DETAIL",
-            "alias": "OWNER_DETAIL"
+            "alias": "OWNER_DETAIL",
+            "show": true
           },
           {
-            "show": true,
             "name": "MANAGER_DETAIL",
-            "alias": "MANAGER_DETAIL"
+            "alias": "MANAGER_DETAIL",
+            "show": true
           },
           {
-            "show": true,
             "name": "MGMT_CODE",
-            "alias": "MGMT_CODE"
+            "alias": "MGMT_CODE",
+            "show": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
           },
           {
-            "show": true,
             "name": "MGMT_DESCRIPTION",
-            "alias": "MGMT_DESCRIPTION"
+            "alias": "MGMT_DESCRIPTION",
+            "show": true
           },
           {
-            "show": true,
             "name": "PUBLIC_ACCESS",
-            "alias": "PUBLIC_ACCESS"
+            "alias": "PUBLIC_ACCESS",
+            "show": true
           },
           {
-            "show": true,
             "name": "PROTECTION_MECHANISM",
-            "alias": "PROTECTION_MECHANISM"
+            "alias": "PROTECTION_MECHANISM",
+            "show": true
           },
           {
-            "show": true,
             "name": "PROTECTION_TERM",
-            "alias": "PROTECTION_TERM"
+            "alias": "PROTECTION_TERM",
+            "show": true
           },
           {
-            "show": false,
             "name": "EASEMENT_HOLDER",
-            "alias": "EASEMENT_HOLDER"
+            "alias": "EASEMENT_HOLDER",
+            "show": false
           },
           {
-            "show": false,
             "name": "DATE_ESTABLISHED",
-            "alias": "DATE_ESTABLISHED"
+            "alias": "DATE_ESTABLISHED",
+            "show": false
           },
           {
-            "show": false,
             "name": "GOCO_FUNDING",
-            "alias": "GOCO_FUNDING"
+            "alias": "GOCO_FUNDING",
+            "show": false
           },
           {
-            "show": false,
             "name": "CONSERV_PURPOSE",
-            "alias": "CONSERV_PURPOSE"
+            "alias": "CONSERV_PURPOSE",
+            "show": false
           },
           {
-            "show": false,
             "name": "SOURCE_DATA",
-            "alias": "SOURCE_DATA"
+            "alias": "SOURCE_DATA",
+            "show": false
           },
           {
-            "show": false,
             "name": "SOURCE_DATE",
-            "alias": "SOURCE_DATE"
+            "alias": "SOURCE_DATE",
+            "show": false
           },
           {
-            "show": false,
             "name": "SOURCE_SCALE",
-            "alias": "SOURCE_SCALE"
+            "alias": "SOURCE_SCALE",
+            "show": false
           },
           {
-            "show": false,
             "name": "RECEPTION_NO",
-            "alias": "RECEPTION_NO"
+            "alias": "RECEPTION_NO",
+            "show": false
           },
           {
-            "show": false,
             "name": "GOCO_LOG",
-            "alias": "GOCO_LOG"
+            "alias": "GOCO_LOG",
+            "show": false
           },
           {
-            "show": false,
             "name": "NOTES",
-            "alias": "NOTES"
+            "alias": "NOTES",
+            "show": false
           },
           {
-            "show": true,
             "name": "ACRES",
-            "alias": "ACRES"
-          },
-          {
-            "show": false,
-            "name": "HOLDER_TYPE",
-            "alias": "HOLDER_TYPE"
-          },
-          {
+            "alias": "ACRES",
             "show": true,
-            "name": "legend",
-            "alias": "legend"
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            }
           },
           {
-            "show": false,
+            "name": "HOLDER_TYPE",
+            "alias": "HOLDER_TYPE",
+            "show": false
+          },
+          {
+            "name": "legend",
+            "alias": "legend",
+            "show": true
+          },
+          {
             "name": "CTS_MGMT_CODE",
-            "alias": "CTS_MGMT_CODE"
+            "alias": "CTS_MGMT_CODE",
+            "show": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            }
           }
         ]
       },
@@ -1436,36 +1691,36 @@
     },
     {
       "name": "Colorado Boundary",
-      "id": "CTS_TF_6_SummaryStats_5582_0",
+      "id": "CTS_TF_6_SummaryX_8684_0",
       "layer": {
-        "url": "http://utility.arcgis.com/usrsvcs/servers/ce5828797dd4437f9d1e05c45d6c6028/rest/services/CTS_TF_6_SummaryStats/MapServer/0"
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_6_SummaryX/MapServer/0"
       },
       "show": false,
       "showAttachments": false
     },
     {
       "name": "Colorado Summary",
-      "id": "CTS_TF_6_SummaryStats_5582_1",
+      "id": "CTS_TF_6_SummaryX_8684_1",
       "layer": {
-        "url": "http://utility.arcgis.com/usrsvcs/servers/ce5828797dd4437f9d1e05c45d6c6028/rest/services/CTS_TF_6_SummaryStats/MapServer/1"
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_6_SummaryX/MapServer/1"
       },
       "show": false,
       "showAttachments": false
     },
     {
       "name": "County Summary",
-      "id": "CTS_TF_6_SummaryStats_5582_2",
+      "id": "CTS_TF_6_SummaryX_8684_2",
       "layer": {
-        "url": "http://utility.arcgis.com/usrsvcs/servers/ce5828797dd4437f9d1e05c45d6c6028/rest/services/CTS_TF_6_SummaryStats/MapServer/2"
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_6_SummaryX/MapServer/2"
       },
       "show": false,
       "showAttachments": false
     },
     {
       "name": "Trail Manager Summary",
-      "id": "CTS_TF_6_SummaryStats_5582_3",
+      "id": "CTS_TF_6_SummaryX_8684_3",
       "layer": {
-        "url": "http://utility.arcgis.com/usrsvcs/servers/ce5828797dd4437f9d1e05c45d6c6028/rest/services/CTS_TF_6_SummaryStats/MapServer/3"
+        "url": "http://tiles.arcgis.com/tiles/WvgOaBfZeRNlBq3y/arcgis/rest/services/CTS_TF_6_SummaryX/MapServer/3"
       },
       "show": false,
       "showAttachments": false

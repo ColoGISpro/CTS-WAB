@@ -12,14 +12,26 @@
     "CTS_TF_6_Summary_flView_4819_6661": {
       "display": false
     },
-    "CTS_TF_6_Summary_flView_4819": {
+    "CTS_TF_6_SummaryX_flView_9316_5125": {
       "display": true
+    },
+    "CTS_TF_6_Summary_flView_4819": {
+      "display": false
+    },
+    "CTS_TF_6_SummaryX_flView_51_7518": {
+      "display": false
     },
     "CTS_TF_6_Summary_flView_6480": {
-      "display": true
+      "display": false
+    },
+    "CTS_TF_6_SummaryX_flView_4625_6805": {
+      "display": false
     },
     "CTS_TF_6_Summary_flView_1315": {
-      "display": true
+      "display": false
+    },
+    "CTS_TF_6_SummaryX_flView_8868_1040": {
+      "display": false
     },
     "CTS_TF_0_AllRoutesSegs_fsView_7456": {
       "display": true
@@ -30,8 +42,8 @@
     "CTS_TF_0_AllRoutesSegs_fsView_8972": {
       "display": true
     },
-    "CTS_TF_5_Trailhead_flView_6092_2389": {
-      "display": false
+    "CTS_TF_5_Trailhead_flView_6092_4014": {
+      "display": true
     },
     "CTS_TF_5_Trailhead_flView_6092": {
       "display": false
@@ -79,6 +91,21 @@
       "display": false
     },
     "TP_COMaP_Detailed_InternalFS_3871": {
+      "display": true
+    },
+    "CTS_TF_6_SummaryX_8684": {
+      "display": true
+    },
+    "CTS_TF_6_SummaryX_8684_0": {
+      "display": true
+    },
+    "CTS_TF_6_SummaryX_8684_1": {
+      "display": true
+    },
+    "CTS_TF_6_SummaryX_8684_2": {
+      "display": true
+    },
+    "CTS_TF_6_SummaryX_8684_3": {
       "display": true
     },
     "CTS_TF_6_SummaryStats_5582": {

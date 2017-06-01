@@ -19,10 +19,10 @@
       "type": "query"
     },
     {
-      "layerId": "CTS_TF_6_Summary_flView_1315",
-      "url": "http://utility.arcgis.com/usrsvcs/servers/1e2b9fd5222547d3b691273586a6ae7d/rest/services/CTS_TF_6_Summary_flView/FeatureServer/2",
-      "name": "Trail Managers",
-      "placeholder": "chatfield State Park",
+      "layerId": "CTS_TF_6_SummaryX_flView_8868_1040",
+      "url": "http://utility.arcgis.com/usrsvcs/servers/83af3d294a7846459298df5379f3f0e4/rest/services/CTS_TF_6_SummaryX_flView/FeatureServer/3",
+      "name": "Trail Manager",
+      "placeholder": "Chatfield State Park",
       "searchFields": [
         "Ts_ManagerName"
       ],
