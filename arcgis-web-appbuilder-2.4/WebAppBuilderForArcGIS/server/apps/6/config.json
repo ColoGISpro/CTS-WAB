@@ -218,7 +218,8 @@
         },
         "version": "2.4",
         "id": "widgets_MyLocation_Widget_132",
-        "name": "MyLocation"
+        "name": "MyLocation",
+        "config": "configs/MyLocation/config_MyLocation.json"
       },
       {
         "uri": "widgets/AttributeTable/Widget",
@@ -276,7 +277,8 @@
           "relativeTo": "map"
         },
         "positionRelativeTo": "map",
-        "config": "configs/MapProgress/config_MapProgress.json"
+        "config": "configs/MapProgress/config_MapProgress.json",
+        "visible": false
       }
     ],
     "groups": [
