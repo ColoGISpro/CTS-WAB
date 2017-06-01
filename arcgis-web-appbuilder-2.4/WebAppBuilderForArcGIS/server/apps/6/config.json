@@ -114,12 +114,12 @@
         "placeholderIndex": 1,
         "id": "_125",
         "name": "LayerToggleButton",
-        "label": "Simple All Trails Toggle Button",
+        "label": "Simple Trails Toggle Button",
         "version": "2.3",
         "closeable": true,
-        "icon": "configs\\LayerToggleButton\\icon_Simple All Trails Toggle Button.png",
+        "icon": "configs\\LayerToggleButton\\icon_Simple Trails Toggle Button.png",
         "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config_Simple All Trails Toggle Button.json"
+        "config": "configs/LayerToggleButton/config_Simple Trails Toggle Button.json"
       },
       {
         "position": {

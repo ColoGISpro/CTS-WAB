@@ -1,9 +1,9 @@
 {
   "bitlyLogin": "ericdrummond",
   "bitlyKey": "R_dc2a463297c9e26a544a58ae0af04cab",
-  "title": "Colorado TrailFinder",
+  "title": "Colorado Trail Explorer",
   "image": "",
-  "summary": "",
-  "hashtags": "ColoradoTrailFinder",
+  "summary": "Want to explore all the trails Colorado has to offer, on one map? Check out the Colorado Trail Explorer!",
+  "hashtags": "cotrex",
   "useExtent": false
 }

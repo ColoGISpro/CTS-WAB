@@ -1,6 +1,6 @@
 {
   "serviceURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
-  "defaultTitle": "My COTREX Map",
+  "defaultTitle": "My COTREX GeoPdf Map",
   "defaultAuthor": "Colorado Trail System",
   "defaultCopyright": "Colorado Parks and Wildlife",
   "defaultFormat": "PDF",

@@ -1768,3 +1768,34 @@
 [2017-05-31 20:02:22.196] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
 [2017-05-31 20:02:24.170] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
 [2017-05-31 20:02:26.305] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-05-31 20:05:05.272] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 20:13:31.580] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-31 20:13:39.969] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 20:32:51.543] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-31 20:32:54.284] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 20:34:52.615] [INFO] app - remove widget icon icon_Simple All Trails Toggle Button.png from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\4\
+[2017-05-31 20:34:52.620] [INFO] app - remove widget config config_Simple All Trails Toggle Button.json from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\4\
+[2017-05-31 20:34:55.092] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-31 20:34:57.396] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 20:37:53.900] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-31 20:37:56.369] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 20:54:12.895] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 20:54:30.003] [INFO] server - No portal URL is set, redirect /webappbuilder/?id=4 to /webappbuilder/?id=4&action=setportalurl
+[2017-05-31 20:54:30.016] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-31 20:54:38.301] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-31 20:54:39.959] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 20:57:20.656] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-31 20:57:25.323] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 20:57:30.919] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 20:57:41.810] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 21:00:55.717] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-31 21:00:59.914] [INFO] server - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
+[2017-05-31 21:00:59.929] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 21:01:31.139] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 21:01:50.362] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-05-31 21:03:23.282] [INFO] server - Set isXT = true; /webappbuilder/apps/6/env.js
+[2017-05-31 21:04:21.809] [INFO] app - remove widget icon icon_Simple All Trails Toggle Button.png from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\6\
+[2017-05-31 21:04:21.813] [INFO] app - remove widget config config_Simple All Trails Toggle Button.json from app configs folder C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\server\apps\6\
+[2017-05-31 21:04:23.573] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-05-31 21:04:25.836] [INFO] server - Set isXT = true; /webappbuilder/apps/6/env.js
+[2017-05-31 21:04:39.253] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
