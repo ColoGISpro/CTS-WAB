@@ -113,13 +113,10 @@
         },
         "placeholderIndex": 1,
         "id": "_125",
-        "name": "LayerToggleButton",
-        "label": "Simple Trails Toggle Button",
         "version": "2.3",
         "closeable": true,
         "icon": "configs\\LayerToggleButton\\icon_Simple Trails Toggle Button.png",
-        "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config_Simple Trails Toggle Button.json"
+        "uri": ""
       },
       {
         "position": {
@@ -129,13 +126,10 @@
         },
         "placeholderIndex": 2,
         "id": "_126",
-        "name": "LayerToggleButton",
-        "label": "Detailed Non-mechanized Toggle Button",
         "version": "2.3",
         "closeable": true,
         "icon": "configs\\LayerToggleButton\\icon_Detailed Non-mechanized Toggle Button.png",
-        "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config_Detailed Non-mechanized Toggle Button.json"
+        "uri": ""
       },
       {
         "position": {
@@ -145,13 +139,10 @@
         },
         "placeholderIndex": 3,
         "id": "_127",
-        "name": "LayerToggleButton",
-        "label": "Detailed Multi-use Trail Toggle Button",
         "version": "2.3",
         "closeable": true,
         "icon": "configs\\LayerToggleButton\\icon_Detailed Multi-use Trail Toggle Button.png",
-        "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config_Detailed Multi-use Trail Toggle Button.json"
+        "uri": ""
       },
       {
         "position": {
@@ -161,13 +152,10 @@
         },
         "placeholderIndex": 4,
         "id": "_128",
-        "name": "LayerToggleButton",
-        "label": "Detailed Motorized Toggle Button",
         "version": "2.3",
         "closeable": true,
         "icon": "configs\\LayerToggleButton\\icon_Detailed Motorized Toggle Button.png",
-        "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config_Detailed Motorized Toggle Button.json"
+        "uri": ""
       },
       {
         "position": {
@@ -177,13 +165,10 @@
         },
         "placeholderIndex": 5,
         "id": "_129",
-        "name": "LayerToggleButton",
-        "label": "Detailed Bike Route Toggle Button",
         "version": "2.3",
         "closeable": true,
         "icon": "configs\\LayerToggleButton\\icon_Detailed Bike Route Toggle Button.png",
-        "uri": "widgets/LayerToggleButton/Widget",
-        "config": "configs/LayerToggleButton/config_Detailed Bike Route Toggle Button.json"
+        "uri": ""
       },
       {
         "uri": "widgets/OverviewMap/Widget",
@@ -450,6 +435,71 @@
         "config": "configs/UrlButton/config_Switch to COTREX desktop.json",
         "index": 5,
         "id": "widgets_UrlButton_Widget_141",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "LayerToggleButton",
+        "label": "Simple Trails Toggle Button",
+        "version": "2.3",
+        "icon": "configs\\LayerToggleButton\\icon_Simple Trails Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Simple Trails Toggle Button.json",
+        "index": 6,
+        "id": "widgets_LayerToggleButton_Widget_1116",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "LayerToggleButton",
+        "label": "Detailed Non-mechanized Toggle Button",
+        "version": "2.3",
+        "icon": "configs\\LayerToggleButton\\icon_Detailed Non-mechanized Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Detailed Non-mechanized Toggle Button.json",
+        "index": 7,
+        "id": "widgets_LayerToggleButton_Widget_1117",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "LayerToggleButton",
+        "label": "Detailed Multi-use Trail Toggle Button",
+        "version": "2.3",
+        "icon": "configs\\LayerToggleButton\\icon_Detailed Multi-use Trail Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Detailed Multi-use Trail Toggle Button.json",
+        "index": 8,
+        "id": "widgets_LayerToggleButton_Widget_1118",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "LayerToggleButton",
+        "label": "Detailed Motorized Toggle Button",
+        "version": "2.3",
+        "icon": "configs\\LayerToggleButton\\icon_Detailed Motorized Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Detailed Motorized Toggle Button.json",
+        "index": 9,
+        "id": "widgets_LayerToggleButton_Widget_1119",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "LayerToggleButton",
+        "label": "Detailed Bike Route Toggle Button",
+        "version": "2.3",
+        "icon": "configs\\LayerToggleButton\\icon_Detailed Bike Route Toggle Button.png",
+        "uri": "widgets/LayerToggleButton/Widget",
+        "config": "configs/LayerToggleButton/config_Detailed Bike Route Toggle Button.json",
+        "index": 11,
+        "id": "widgets_LayerToggleButton_Widget_1120",
         "position": {
           "relativeTo": "map"
         }

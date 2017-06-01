@@ -1,15 +1,15 @@
 {
   "layerOptions": {
-    "CTS_TF_6_Summary_flView_4819_6661": {
+    "CTS_TF_6_SummaryX_flView_9316_5125": {
       "display": false
     },
-    "CTS_TF_6_Summary_flView_4819": {
+    "CTS_TF_6_SummaryX_flView_51_7518": {
       "display": false
     },
-    "CTS_TF_6_Summary_flView_6480": {
+    "CTS_TF_6_SummaryX_flView_4625_6805": {
       "display": false
     },
-    "CTS_TF_6_Summary_flView_1315": {
+    "CTS_TF_6_SummaryX_flView_8868_1040": {
       "display": false
     },
     "CTS_TF_0_AllRoutesSegs_fsView_7456": {
@@ -35,6 +35,9 @@
     },
     "CTS_TF_0_RoutesSimple_flView_7834": {
       "display": true
+    },
+    "CTS_TF_7_TrailManager_7773": {
+      "display": false
     },
     "CTS_TF_5_Trailhead_flView_6092_2400": {
       "display": false
@@ -72,19 +75,19 @@
     "TP_COMaP_Detailed_InternalFS_3871": {
       "display": false
     },
-    "CTS_TF_6_SummaryStats_5582": {
+    "CTS_TF_6_SummaryX_8684": {
       "display": false
     },
-    "CTS_TF_6_SummaryStats_5582_0": {
+    "CTS_TF_6_SummaryX_8684_0": {
       "display": false
     },
-    "CTS_TF_6_SummaryStats_5582_1": {
+    "CTS_TF_6_SummaryX_8684_1": {
       "display": false
     },
-    "CTS_TF_6_SummaryStats_5582_2": {
+    "CTS_TF_6_SummaryX_8684_2": {
       "display": false
     },
-    "CTS_TF_6_SummaryStats_5582_3": {
+    "CTS_TF_6_SummaryX_8684_3": {
       "display": false
     },
     "CTS_TF_1_Nonmechanized_1332": {

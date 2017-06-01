@@ -1856,3 +1856,19 @@
 [2017-06-01 16:14:20.182] [INFO] server - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
 [2017-06-01 16:14:20.204] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
 [2017-06-01 16:14:23.918] [INFO] server - Set isXT = true; /webappbuilder/apps/6/env.js
+[2017-06-01 16:21:12.672] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-01 16:21:16.994] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-01 16:21:17.674] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-01 16:21:18.718] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-01 16:21:20.123] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-01 16:21:25.328] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-06-01 16:21:34.307] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-01 16:21:38.100] [INFO] server - Set isXT = true; /webappbuilder/apps/6/env.js
+[2017-06-01 16:21:58.575] [DEBUG] utils - copy C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes\FoldableTheme
+[2017-06-01 16:22:53.629] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-01 16:22:55.351] [INFO] server - Set isXT = true; /webappbuilder/apps/6/env.js
+[2017-06-01 16:23:05.902] [INFO] server - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
+[2017-06-01 16:23:05.924] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-06-01 16:23:11.407] [INFO] server - Set isXT = true; /webappbuilder/apps/6/env.js
+[2017-06-01 16:25:47.647] [INFO] app - remove theme FoldableTheme from app 6
+[2017-06-01 16:25:47.920] [INFO] app - remove theme LaunchpadTheme from app 6
