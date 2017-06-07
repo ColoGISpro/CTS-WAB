@@ -1872,3 +1872,14 @@
 [2017-06-01 16:23:11.407] [INFO] server - Set isXT = true; /webappbuilder/apps/6/env.js
 [2017-06-01 16:25:47.647] [INFO] app - remove theme FoldableTheme from app 6
 [2017-06-01 16:25:47.920] [INFO] app - remove theme LaunchpadTheme from app 6
+[2017-06-07 12:14:38.500] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-07 12:14:41.766] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-07 12:14:43.489] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-07 12:14:44.829] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-07 12:14:45.156] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-07 12:15:11.436] [INFO] app - App removed, id: 5
+[2017-06-07 12:18:11.566] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-07 12:18:14.619] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-07 12:18:15.415] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-07 12:18:17.321] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-07 12:18:17.782] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
