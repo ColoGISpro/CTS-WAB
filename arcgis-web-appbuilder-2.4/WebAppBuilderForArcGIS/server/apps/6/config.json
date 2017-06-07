@@ -18,8 +18,8 @@
   "authorizedCrossOriginDomains": [
     "cts.state.co.us"
   ],
-  "title": "COTREX",
-  "subtitle": "<div class=\"attribute-custom-style\"><b>Co</b><font size=\"2\">lorado</font> <b>Tr</b><font size=\"2\">ail </font><b>Ex</b><font size=\"2\">plorer - </font><font size=\"1\">mobile map</font></div>",
+  "title": "<div class=\"attribute-custom-style\">COTREX <i><font size=\"1\">mobile map</font></i></div>",
+  "subtitle": "<div class=\"attribute-custom-style\"><font size=\"2\">Colorado Trail Explorer</font></div>",
   "keepAppState": true,
   "logo": "images/logo.png",
   "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
