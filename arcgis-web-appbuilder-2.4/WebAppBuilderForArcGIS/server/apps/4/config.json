@@ -18,7 +18,7 @@
   "authorizedCrossOriginDomains": [
     "cts.state.co.us"
   ],
-  "title": "<div class=\"attribute-custom-style\">COTREX <i><font size=\"1\">desktop map</font></i></div>",
+  "title": "<div class=\"attribute-custom-style\">COTREX <i><font size=\"1\">desktop</font></i></div>",
   "subtitle": "<div class=\"attribute-custom-style\"><font size=\"2\">Colorado Trail Explorer</font></div>",
   "keepAppState": true,
   "logo": "images/logo.png",
