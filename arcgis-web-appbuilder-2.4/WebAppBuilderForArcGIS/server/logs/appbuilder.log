@@ -1883,3 +1883,13 @@
 [2017-06-07 12:18:15.415] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
 [2017-06-07 12:18:17.321] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
 [2017-06-07 12:18:17.782] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-07 12:30:51.530] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\widgets
+[2017-06-07 12:30:54.093] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp\themes
+[2017-06-07 12:30:54.640] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\widgets
+[2017-06-07 12:30:55.530] [INFO] repo - Read repository items: C:\Users\drummoer\Documents\GitHub\CTS-WAB\arcgis-web-appbuilder-2.4\WebAppBuilderForArcGIS\client\stemapp3d\themes
+[2017-06-07 12:30:56.590] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-07 12:31:26.121] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-06-07 12:34:40.101] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-06-07 13:12:05.637] [INFO] server - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
+[2017-06-07 13:12:05.747] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-06-07 13:16:17.553] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
