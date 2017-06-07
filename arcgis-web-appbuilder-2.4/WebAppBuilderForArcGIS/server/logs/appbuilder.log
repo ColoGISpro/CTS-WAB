@@ -1893,3 +1893,6 @@
 [2017-06-07 13:12:05.637] [INFO] server - redirect  /webappbuilder/stemapp/index.html?id=4 to /webappbuilder/apps/4
 [2017-06-07 13:12:05.747] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
 [2017-06-07 13:16:17.553] [INFO] server - Set isXT = true; /webappbuilder/apps/4/env.js
+[2017-06-07 13:18:54.806] [INFO] server - Set isXT = true; /webappbuilder/apps/6/env.js
+[2017-06-07 13:22:49.959] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-06-07 13:23:52.361] [INFO] server - Set isXT = true; /webappbuilder/apps/6/env.js
