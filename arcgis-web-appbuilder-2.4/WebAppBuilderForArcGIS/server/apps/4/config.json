@@ -259,21 +259,8 @@
         "version": "2.4",
         "id": "widgets_ExtentNavigate_Widget_136",
         "name": "ExtentNavigate"
-      },
-      {
-        "uri": "widgets/MapProgress/Widget",
-        "version": "2.3",
-        "id": "widgets_MapProgress_Widget_1115",
-        "IsController": false,
-        "name": "MapProgress",
-        "position": {
-          "left": 0,
-          "top": 0,
-          "relativeTo": "map"
-        },
-        "positionRelativeTo": "map",
-        "config": "configs/MapProgress/config_MapProgress.json"
       }
+     
     ],
     "groups": [
       {
